@@ -9,6 +9,8 @@ Modern Frontend: Built with Create React App (CRA) for a responsive and smooth u
 Immersive 3D Video Elements: Enhances the website's visual appeal and engagement.
 Seamless Form Handling: User inquiries are sent directly to Gmail using Web3Forms.
 Dynamic Content Management: Travel blogs and destination details are stored in JSON, which feeds into JSX, eliminating the need to create new pages manually for each update.
+
+
 🛠️ Tech Stack
 Frontend: React (CRA), JSX, CSS
 Backend: Node.js, Express.js, MongoDB
