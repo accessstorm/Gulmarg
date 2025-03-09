@@ -1,0 +1,447 @@
+/* InternationalTourPage.css - Styles for International Tour Page */
+
+/* Import base styles from HomePage */
+.home-page-content { /* Re-using home-page-content for base font and colors */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #4a4a4a; /* Updated to #4a4a4a to match HomePage general text color */
+    line-height: 1.6; /* Updated to 1.6 to match HomePage line height */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* --- InternationalTourPage Specific Styles Below --- */
+
+.international-tour-page-content {
+    padding-top: 80px; /* Updated padding-top to 80px to match HomePage section paddings */
+    padding-bottom: 80px; /* Updated padding-bottom to 80px to match HomePage section paddings */
+}
+
+.international-tour-header {
+    text-align: left; /* Adjust as needed - can be center too */
+    margin-bottom: 40px; /* Updated margin-bottom to 40px to match HomePage section spacing */
+    position: relative; /* Make header relative for video positioning */
+    overflow: hidden; /* Clip video if it overflows */
+    color: #b39766; /* Set default text color for header content on video */
+    /* Reduced top and bottom padding to minimize space, adjust as needed */
+    padding-top: 100px; /* Reduced top padding */
+    padding-bottom: 100px; /* Reduced bottom padding */
+    display: flex; /* Enable flexbox for content centering */
+    flex-direction: column; /* Stack header content vertically */
+    justify-content: center; /* Vertically center header content */
+    align-items: flex-start; /* Align items to the start (left) for left-aligned header text */
+}
+
+.international-tour-header .hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Place video behind content */
+}
+
+.international-tour-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Dark overlay for better text readability */
+    z-index: -1; /* Place overlay behind content, above video */
+}
+
+.international-tour-header .header-content {
+    position: relative; /* Ensure header text is above overlay and video */
+    z-index: 0;
+    width: 100%; /* Make header content take full width */
+    padding: 0 20px; /* Add horizontal padding for text if needed, adjust as needed */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.international-tour-header h1 {
+    font-size: 3.4em; /* Updated font-size to 3.4em to match HomePage packages-section h2 */
+    font-weight: 700; /* Updated font-weight to 700 to match HomePage packages-section h2 */
+    margin-bottom: 25px; /* Updated margin-bottom to 25px to match HomePage packages-section h2 */
+    color: #916418; /* Light color for text on video */
+    letter-spacing: -0.8px; /* Added letter-spacing to match HomePage packages-section h2 */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.7); /* Optional: Text shadow for better visibility on video */
+    text-align: left; /* Enforce left alignment for h1 */
+}
+
+.international-tour-header p {
+    color: #ffffff; /* Light color for text on video */
+    font-size: 1.05em; /* Updated font-size to 1.05em to match HomePage international-packages-section description */
+    margin-bottom: 0;
+    line-height: 1.7; /* Added line-height to match HomePage international-packages-section description */
+    max-width: 850px; /* Added max-width for better readability */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.7); /* Optional: Text shadow for better visibility on video */
+    text-align: left; /* Enforce left alignment for p */
+}
+
+.international-tour-header a {
+    color: #ffffff; /* Light color for links on video */
+    text-decoration: none;
+    font-weight: 600; /* Added font-weight to match HomePage links and buttons */
+}
+
+.international-tour-header a:hover {
+    text-decoration: underline;
+    color: #ddd; /* Slightly different hover color for light text */
+}
+
+
+/* Tour Brief Section */
+.tour-brief-section {
+    margin-bottom: 30px;
+    padding: 30px; /* Updated padding to 30px to be consistent with HomePage card padding */
+    background-color: #f7f7f7; /* Light grey background */
+    border-radius: 12px; /* Updated border-radius to 12px to match HomePage cards */
+}
+
+.tour-brief-section h2 {
+    font-size: 2.4em; /* Updated font-size to 2.4em to match HomePage summer-tours-section h2 */
+    font-weight: 700; /* Updated font-weight to 700 to match HomePage summer-tours-section h2 */
+    margin-bottom: 35px; /* Updated margin-bottom to 35px to match HomePage summer-tours-section h2 */
+    color: #3a3a3a;
+    letter-spacing: -0.8px; /* Added letter-spacing to match HomePage summer-tours-section h2 */
+    text-align: center; /* Added text-align center for section heading */
+}
+
+.tour-brief-section p {
+    color: #666;
+    font-size: 1.05em; /* Updated font-size to 1.05em to match HomePage international-packages-section description */
+    line-height: 1.7; /* Updated line-height to 1.7 to match HomePage international-packages-section description */
+    text-align: justify; /* Added text-align justify for better readability */
+    margin-bottom: 40px; /* Added margin-bottom to match HomePage international-packages-section description */
+}
+
+.tour-brief-section .book-now-button {
+    background-color: #151748; /* Updated to #151748 to match HomePage primary button color */
+    color: white;
+    border: none;
+    padding: 12px 22px; /* Updated padding to 12px 22px to match HomePage view-tour-button */
+    border-radius: 8px; /* Updated border-radius to 8px to match HomePage buttons */
+    cursor: pointer;
+    font-size: 1em; /* Updated font-size to 1em to match HomePage view-tour-button */
+    font-weight: 600; /* Updated font-weight to 600 to match HomePage buttons */
+    transition: background-color 0.2s ease-in-out, transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out; /* Added transition for transform and box-shadow */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added box-shadow to match HomePage buttons */
+}
+
+.tour-brief-section .book-now-button:hover {
+    background-color: #006666; /* Updated hover color to match HomePage button hover */
+    transform: scale(1.02); /* Added scale on hover to match HomePage buttons hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Added box-shadow on hover to match HomePage buttons hover */
+}
+
+/* Tour Links Section */
+.tour-links-section {
+    margin-bottom: 30px;
+}
+
+.tour-links-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Adjust min-width as needed, updated minmax to 180px for better card width */
+    gap: 20px; /* Updated gap to 20px for better spacing */
+    text-align: center;
+}
+
+.tour-links-grid .tour-link-card {
+    background-color: #fff;
+    padding: 20px; /* Updated padding to 20px for more space inside cards */
+    border-radius: 12px; /* Updated border-radius to 12px to match HomePage cards */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08); /* Updated box-shadow to match HomePage cards */
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Added transition for hover effect */
+    border: 1px solid #eee; /* Added border like HomePage cards */
+}
+
+.tour-links-grid .tour-link-card:hover {
+    transform: translateY(-6px); /* Added hover transform like HomePage cards */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Added hover shadow like HomePage cards */
+}
+
+/* Tour Details Grid Section */
+.tour-details-grid-section {
+    margin-bottom: 30px;
+}
+
+.tour-details-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Adjust min-width as needed, updated minmax to 220px for better card width */
+    gap: 30px; /* Updated gap to 30px to match HomePage grid gaps */
+}
+
+.tour-details-grid .detail-item {
+    background-color: #fff;
+    padding: 25px; /* Updated padding to 25px for more space inside cards */
+    border-radius: 12px; /* Updated border-radius to 12px to match HomePage cards */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08); /* Updated box-shadow to match HomePage cards */
+    text-align: center;
+    border: 1px solid #eee; /* Added border like HomePage cards */
+}
+
+.tour-details-grid .detail-item:hover {
+    transform: translateY(-6px); /* Added hover transform like HomePage cards */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Added hover shadow like HomePage cards */
+}
+
+.tour-details-grid .detail-item h3 {
+    font-size: 1.4em; /* Updated font-size to 1.4em to match HomePage quick-actions-section h3 */
+    font-weight: 700; /* Updated font-weight to 700 to match HomePage quick-actions-section h3 */
+    margin-bottom: 10px; /* Updated margin-bottom to 10px to match HomePage quick-actions-section h3 */
+    color: #3a3a3a;
+    margin-top: 0; /* Added margin-top to 0 to match HomePage quick-actions-section h3 */
+}
+
+.tour-details-grid .detail-item p {
+    color: #666;
+    font-size: 1em; /* Updated font-size to 1em to match HomePage quick-actions-section p */
+    line-height: 1.6; /* Updated line-height to 1.6 to match HomePage quick-actions-section p */
+    font-weight: 400; /* Added font-weight to match HomePage quick-actions-section p */
+}
+
+
+/* About Tour Section, Tour Packages Section, Plan Vacation Section */
+.about-tour-section,
+.tour-packages-section,
+.plan-vacation-section,
+.itinerary-section,
+.price-cost-section,
+.tour-details-table-section,
+.inclusion-exclusion-section {
+    margin-bottom: 40px;
+}
+
+.about-tour-section h2,
+.tour-packages-section h2,
+.plan-vacation-section h2,
+.itinerary-section h2,
+.price-cost-section h2,
+.tour-details-table-section h2,
+.inclusion-exclusion-section h2 {
+    font-size: 2.4em; /* Updated font-size to 2.4em to match HomePage summer-tours-section h2 */
+    font-weight: 700; /* Updated font-weight to 700 to match HomePage summer-tours-section h2 */
+    margin-bottom: 35px; /* Updated margin-bottom to 35px to match HomePage summer-tours-section h2 */
+    color: #3a3a3a;
+    text-align: left; /* Or center, adjust as you like */
+    letter-spacing: -0.8px; /* Added letter-spacing to match HomePage summer-tours-section h2 */
+}
+
+.about-tour-section p,
+.tour-packages-section p,
+.plan-vacation-section p,
+.itinerary-section p {
+    color: #666;
+    font-size: 1.05em; /* Updated font-size to 1.05em to match HomePage international-packages-section description */
+    line-height: 1.7; /* Updated line-height to 1.7 to match HomePage international-packages-section description */
+    text-align: justify; /* Added text-align justify for better readability */
+    margin-bottom: 40px; /* Added margin-bottom to match HomePage international-packages-section description */
+}
+
+/* Itinerary Section */
+.itinerary-section .itinerary-day {
+    margin-bottom: 20px;
+    padding: 25px; /* Updated padding to 25px for more space inside cards */
+    background-color: #fff;
+    border-radius: 12px; /* Updated border-radius to 12px to match HomePage cards */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08); /* Updated box-shadow to match HomePage cards */
+    border: 1px solid #eee; /* Added border like HomePage cards */
+}
+
+.itinerary-section .itinerary-day h3 {
+    font-size: 1.4em; /* Updated font-size to 1.4em to match HomePage quick-actions-section h3 */
+    font-weight: 700; /* Updated font-weight to 700 to match HomePage quick-actions-section h3 */
+    margin-bottom: 10px; /* Updated margin-bottom to 10px to match HomePage quick-actions-section h3 */
+    color: #3a3a3a;
+    margin-top: 0; /* Added margin-top to 0 to match HomePage quick-actions-section h3 */
+}
+
+
+/* Price Cost Section */
+.price-cost-section .price-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.price-cost-section .price-table th,
+.price-cost-section .price-table td {
+    padding: 10px;
+    border: 1px solid #ddd; /* Light border for table */
+    text-align: left;
+}
+
+.price-cost-section .price-table th {
+    background-color: #f0f0f0; /* Light background for header */
+    font-weight: bold;
+}
+
+/* Tour Details Table Section */
+.tour-details-table-section .tour-details-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.tour-details-table-section .tour-details-table td {
+    padding: 10px;
+    border-bottom: 1px solid #eee; /* Very light bottom border for rows */
+    text-align: left;
+}
+.tour-details-table-section .tour-details-table td:first-child {
+    font-weight: 500; /* Bold first column (labels) */
+    width: 30%; /* Adjust label column width */
+}
+.tour-details-table-section .tour-details-table tr:last-child td {
+    border-bottom: none; /* Remove border from last row */
+}
+
+
+/* Inclusion Exclusion Section */
+.inclusion-exclusion-section .inclusion-exclusion-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns for inclusions and exclusions */
+    gap: 30px; /* Updated gap to 30px to match HomePage grid gaps */
+}
+
+.inclusion-exclusion-section .inclusion-list h3,
+.inclusion-exclusion-section .exclusion-list h3 {
+    font-size: 1.4em; /* Updated font-size to 1.4em to match HomePage quick-actions-section h3 */
+    font-weight: 700; /* Updated font-weight to 700 to match HomePage quick-actions-section h3 */
+    margin-bottom: 10px; /* Updated margin-bottom to 10px to match HomePage quick-actions-section h3 */
+    color: #3a3a3a;
+    margin-top: 0; /* Added margin-top to 0 to match HomePage quick-actions-section h3 */
+    text-align: left; /* Added text-align left for section headings */
+}
+
+.inclusion-exclusion-section .inclusion-list ul,
+.inclusion-exclusion-section .exclusion-list ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.inclusion-exclusion-section .inclusion-list li,
+.inclusion-exclusion-section .exclusion-list li {
+    margin-bottom: 8px;
+    padding-left: 1.2em;
+    position: relative;
+    color: #666; /* Added color to match HomePage paragraph color */
+    font-size: 1em; /* Added font-size to match HomePage paragraph size */
+    line-height: 1.6; /* Added line-height to match HomePage paragraph line-height */
+    font-weight: 400; /* Added font-weight to match HomePage paragraph font-weight */
+}
+
+.inclusion-exclusion-section .inclusion-list li::before,
+.inclusion-exclusion-section .exclusion-list li::before {
+    content: "✓"; /* Checkmark for inclusions */
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #151748; /* Updated color to #151748 to match HomePage primary color */
+    margin-right: 5px;
+}
+
+.inclusion-exclusion-section .exclusion-list li::before {
+    content: "✗"; /* Cross mark for exclusions */
+    color: #ff4d4d; /* Red color for cross mark */
+}
+
+
+.inclusion-exclusion-section .terms-conditions {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.inclusion-exclusion-section .terms-conditions a {
+    color: #151748; /* Updated color to #151748 to match HomePage primary link/button color */
+    text-decoration: none;
+    font-weight: 600; /* Added font-weight to match HomePage links and buttons */
+}
+
+.inclusion-exclusion-section .terms-conditions a:hover {
+    text-decoration: underline;
+    color: #006666; /* Updated hover color to match HomePage button hover */
+}
+
+/* --- Video Header Styles for InternationalTourPage --- */
+.international-tour-header {
+    text-align: left; /* Or center, adjust as needed */
+    margin-bottom: 40px; /* Updated margin-bottom to 40px to match HomePage section spacing */
+    position: relative; /* Make header relative for video positioning */
+    overflow: hidden; /* Clip video if it overflows */
+    color: white; /* Set default text color for header content on video */
+    /* Reduced top and bottom padding to minimize space, adjust as needed */
+    padding-top: 100px; /* Reduced top padding */
+    padding-bottom: 100px; /* Reduced bottom padding */
+    display: flex; /* Enable flexbox for content centering */
+    flex-direction: column; /* Stack header content vertically */
+    justify-content: center; /* Vertically center header content */
+    align-items: flex-start; /* Align items to the start (left) for left-aligned header text */ /* Modified align-items for left alignment */
+}
+
+.international-tour-header .hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Place video behind content */
+}
+
+.international-tour-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Dark overlay for better text readability */
+    z-index: -1; /* Place overlay behind content, above video */
+}
+
+.international-tour-header .header-content {
+    position: relative; /* Ensure header text is above overlay and video */
+    z-index: 0;
+    width: 100%; /* Make header content take full width */
+    padding: 0 20px; /* Add horizontal padding for text if needed, adjust as needed */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.international-tour-header h1 {
+    font-size: 3.4em; /* Updated font-size to 3.4em to match HomePage packages-section h2 */
+    font-weight: 700; /* Updated font-weight to 700 to match HomePage packages-section h2 */
+    margin-bottom: 25px; /* Updated margin-bottom to 25px to match HomePage packages-section h2 */
+    color: #c4baba; /* Light color for text on video */
+    letter-spacing: -0.8px; /* Added letter-spacing to match HomePage packages-section h2 */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.7); /* Optional: Text shadow for better visibility on video */
+    text-align: left; /* Keep text left-aligned */
+}
+
+.international-tour-header p {
+    color: #ffffff; /* Light color for text on video */
+    font-size: 1.05em; /* Updated font-size to 1.05em to match HomePage international-packages-section description */
+    margin-bottom: 0;
+    line-height: 1.7; /* Added line-height to match HomePage international-packages-section description */
+    max-width: 850px; /* Added max-width for better readability */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.7); /* Optional: Text shadow for better visibility on video */
+    text-align: left; /* Keep text left-aligned */
+}
+
+.international-tour-header a {
+    color: #ffffff; /* Light color for links on video */
+    text-decoration: none;
+    font-weight: 600; /* Added font-weight to match HomePage links and buttons */
+}
+
+.international-tour-header a:hover {
+    text-decoration: underline;
+    color: #ddd; /* Slightly different hover color for light text */
+}

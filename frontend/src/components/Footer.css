@@ -1,0 +1,190 @@
+/* Footer.css - Apple Inspired Design */
+.footer {
+    background-color: #151748; /* Light Gray Footer Background */
+    color: #f5eeee; /* Medium Gray Text */
+    padding: 70px 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-top: 1px solid #d3d3d3; /* Light Gray Top Border */
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding: 0 20px;
+    padding-bottom: 40px; /* Space before copyright */
+}
+
+/* Responsive Grid for Footer Columns */
+@media (max-width: 960px) {
+    .footer .container {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    .footer-column.inquiry {
+        grid-column: 1 / -1;
+    }
+}
+
+.footer-column {
+    padding: 0 15px;
+}
+
+.footer-logo img {
+    height: 65px; /* Adjusted Logo Height */
+    margin-bottom: 15px;
+    width: 80%;
+}
+
+.footer-column h3 {
+    color: #d3c7c7; /* Dark Gray Heading */
+    border-bottom: 2px solid #d3d3d3; /* Light Gray Border */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.footer-column p {
+    line-height: 1.6;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    color: #777; /* Light Gray Text */
+}
+
+.footer-column.office .social-icons a {
+    color: #666; /* Medium Gray Icons */
+    font-size: 1.3em;
+    margin-right: 12px;
+    transition: color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+    opacity: 0.7; /* Faded Icons */
+}
+
+.footer-column.office .social-icons a:hover {
+    color: #007aff; /* Apple Blue Hover Color */
+    opacity: 1; /* More opaque on hover */
+}
+
+.footer-column.contact-info p,
+.footer-column.contact-info a {
+    display: block;
+    color: #777; /* Light Gray Text */
+    text-decoration: none;
+    margin-bottom: 8px;
+    font-size: 0.9em;
+    transition: color 0.2s ease-in-out;
+}
+
+.footer-column.contact-info a:hover {
+    color: #007aff; /* Apple Blue Hover Color */
+}
+
+.footer-column.contact-info svg {
+    margin-right: 6px;
+    vertical-align: middle;
+    opacity: 0.6; /* Faded Icons */
+}
+
+/* Table-like Form Styles */
+.table-form {
+    border-radius: 8px;
+    padding: 10px; /* Increased from 2px to 10px */
+    background-color: white;
+    width: 120%; /* Ensures the table takes full width of container */
+    max-width: 500px; /* Set a maximum width if needed */
+    margin: 0 auto; /* Centers the table if it's not full width */
+}
+
+.inquiry-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.inquiry-table td {
+    border: 1px solid white;
+    padding: 8px;
+}
+
+.inquiry-table input,
+.inquiry-table textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #d3d3d3; /* Light Gray Border */
+    background-color: #fff; /* White Input Background */
+    color: #333; /* Dark Gray Input Text */
+    font-size: 0.9em;
+    transition: border-color 0.2s ease-in-out;
+    box-sizing: border-box;
+}
+
+.inquiry-table input:focus,
+.inquiry-table textarea:focus {
+    border-color: #007aff; /* Apple Blue Focus Border */
+    outline: none;
+    box-shadow: 0 0 3px rgba(0, 122, 255, 0.3); /* Subtle focus shadow */
+}
+
+.inquiry-table textarea {
+    resize: vertical;
+    min-height: 90px;
+}
+
+.inquiry-table input::placeholder,
+.inquiry-table textarea::placeholder {
+    color: #999; /* Light Placeholder Text */
+}
+
+.send-button {
+    background-color: #007aff; /* Apple Blue Button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.95em;
+    font-weight: 500;
+    transition: background-color 0.2s ease-in-out, transform 0.1s ease-in-out;
+    width: 100%;
+}
+
+.send-button:hover {
+    background-color: #005ecf; /* Darker Blue on Hover */
+    transform: scale(1.02);
+}
+
+/* Copyright Section - Minimalist */
+.footer hr {
+    border: none;
+    border-top: 1px solid #d3d3d3; /* Light Gray Border */
+    margin-top: 0;
+    margin-bottom: 25px;
+    opacity: 0.7; /* Faded hr */
+}
+
+.footer .copyright {
+    text-align: center;
+    font-size: 0.85em;
+    color: #777; /* Light Gray Copyright Text */
+}
+
+.success-message {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text for contrast */
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional: subtle shadow for pop-up effect */
+}
+
+.error-message {
+    background-color: #f44336; /* Red background for error - if you don't already have it */
+    color: white;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional: subtle shadow for pop-up effect */
+}

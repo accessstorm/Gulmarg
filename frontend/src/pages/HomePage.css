@@ -1,0 +1,962 @@
+/* HomePage.css - Lonely Planet Inspired Design - Enhanced Cards & Video Background */
+.home-page-content {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #4a4a4a;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Carousel Section */
+.carousel-container {
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    animation: zoomInOut 8s infinite alternate;
+    overflow: hidden;
+}
+
+.carousel-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-container .overlay {
+    position: relative;
+    z-index: 1;
+}
+
+.carousel-container h1 {
+    font-size: 4em;
+    color: #c4baba;
+    font-weight: 900;
+    letter-spacing: -0.5px;
+    margin-bottom: 0;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+}
+
+/* HomePage.css - Lonely Planet Inspired Design - Enhanced Cards & Video Background */
+/* ... other CSS rules ... */
+
+/* Carousel Section */
+.carousel-container h1 span {
+    font-family: 'Bebas Neue', sans-serif; /* Added 'Bebas Neue' font family and fallback */
+    color: #ffffff; /* Keep existing color */
+    font-weight: 900; /* Increased font-weight for a thicker look */
+}
+
+/* ... rest of your HomePage.css ... */
+
+@keyframes zoomInOut {
+    0% {
+        background-size: 100%;
+    }
+    100% {
+        background-size: 110%;
+    }
+}
+
+/* Quick Actions Section */
+.quick-actions-section {
+    background-color: #f9f9f9;
+    padding: 70px 0;
+}
+
+.quick-actions-section .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 30px;
+    padding: 0 20px;
+}
+
+.quick-actions-section .card {
+    background-color: #fff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    text-align: left;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    border: 1px solid #eee;
+}
+
+.quick-actions-section .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.quick-actions-section .icon {
+    font-size: 2.5em;
+    color: #151748;
+    margin-bottom: 20px;
+    opacity: 0.9;
+    display: block;
+    text-align: center;
+}
+
+.quick-actions-section h3 {
+    margin-top: 0;
+    color: #3a3a3a;
+    font-size: 1.4em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.quick-actions-section p {
+    color: #666;
+    font-size: 1em;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+/* Packages Section - Video Background */
+.packages-section {
+    padding: 80px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background-color: #f7f7f7;
+}
+
+.packages-section .hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 105%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.packages-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+}
+
+.packages-section h2,
+.packages-section .section-description {
+    color: white;
+    position: relative;
+    z-index: 0;
+}
+
+.packages-section h2 {
+    color: #585050;
+    font-size: 3.4em;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-shadow: #bbb;
+    letter-spacing: -0.8px;
+}
+
+.packages-section h2 span {
+    color: #000000;
+}
+
+.packages-section .section-description {
+    max-width: 850px;
+    margin: 25px auto 40px;
+    color: #161616;
+    line-height: 1.7;
+    font-size: 1.3em;
+}
+
+.scrolling-cards-container {
+    position: relative;
+    max-width: 1200px;
+    margin: 40px auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+}
+
+.scrolling-cards {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 30px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    margin: 0 20px;
+}
+
+.scrolling-cards::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll-button {
+    background: rgba(255, 255, 255, 0.75);
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.8;
+    transition: opacity 0.2s ease-in-out;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.scroll-button:hover {
+    opacity: 1;
+}
+
+.scroll-button.left {
+    left: 10px;
+}
+
+.scroll-button.right {
+    right: 10px;
+}
+
+.tour-card {
+    flex: 0 0 auto;
+    width: 300px;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-right: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    scroll-snap-align: start;
+    background-color: #fff;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    border: 1px solid #eee;
+}
+
+.tour-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.tour-card img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    display: block;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.tour-card h3 {
+    margin: 20px 25px 15px;
+    color: #3a3a3a;
+    font-size: 1.2em;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.tour-card p {
+    margin: 0 25px 20px;
+    color: #777;
+    font-size: 0.95em;
+    line-height: 1.5;
+}
+
+.view-tour-button {
+    background-color: #151748;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    margin: 20px 25px 25px;
+    transition: background-color 0.2s ease-in-out, transform 0.1s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.view-tour-button:hover {
+    background-color: #006666;
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.view-more-button-container {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.view-more-button {
+    background-color: #fff;
+    color: #3a3a3a;
+    border: 1px solid #ccc;
+    padding: 14px 28px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.05em;
+    font-weight: 600;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.view-more-button:hover {
+    background-color: #f0f0f0;
+    border-color: #bbb;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Summer Tours Section */
+.summer-tours-section {
+    padding: 90px 0;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.summer-tours-section h2 {
+    color: #3a3a3a;
+    font-size: 2.4em;
+    font-weight: 700;
+    margin-bottom: 35px;
+    letter-spacing: -0.8px;
+}
+
+.summer-tours-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.summer-tour-card {
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    border: 1px solid #eee;
+}
+
+.summer-tour-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.summer-tour-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.summer-tour-card h3 {
+    margin: 20px 25px 15px;
+    color: #3a3a3a;
+    font-size: 1.2em;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.summer-tour-card p {
+    margin: 0 25px 20px;
+    color: #777;
+    font-size: 0.95em;
+    line-height: 1.5;
+}
+
+.summer-tour-card .tour-button {
+    background-color: #151748;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    margin: 20px 25px 25px;
+    transition: background-color 0.2s ease-in-out, transform 0.1s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.summer-tour-card .tour-button:hover {
+    background-color: #006666;
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Stats Section */
+.stats-section {
+    background-color: #f2eee1;
+    color: #2a2f30;
+    padding: 70px 0;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.stats-section .stats-row {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.stats-section .stat-item {
+    flex: 1;
+    min-width: 180px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.stats-section .stat-item:hover {
+    transform: translateY(-2px);
+}
+
+.stats-section .stat-icon {
+    font-size: 2em;
+    display: block;
+    margin-bottom: 10px;
+    color: #151748;
+    opacity: 0.8;
+}
+
+.stats-section .star-icon {
+    color: #ffc107;
+}
+
+.stats-section .stat-number {
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    animation: countUp 1.5s ease-out forwards;
+    overflow: hidden;
+    height: 2em;
+    line-height: 2em;
+}
+
+.stats-section .stat-label {
+    font-size: 0.9em;
+    color: #313535;
+}
+
+/* Mumbai Tours Section */
+.mumbai-tours-section {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.mumbai-tours-section h2 {
+    color: #3a3a3a;
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 30px;
+    letter-spacing: -0.5px;
+}
+
+.mumbai-content {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    gap: 30px;
+    padding: 0 20px;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .mumbai-content {
+        flex-direction: row;
+    }
+}
+
+.mumbai-image {
+    width: 50%;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.mumbai-image:hover {
+    transform: scale(1.005);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.12);
+}
+
+.mumbai-text {
+    width: 50%;
+    text-align: left;
+    color: #666;
+    line-height: 1.6;
+    font-size: 0.95em;
+}
+
+/* International Packages Section */
+/* HomePage.css - Lonely Planet Inspired Design - Enhanced Cards & Video Background */
+/* ... other CSS rules ... */
+
+/* International Packages Section - Video Background Fix */
+.international-packages-section {
+    padding: 90px 0;
+    text-align: center;
+    background-color: #f7f7f7;
+    position: relative; /* Ensure relative positioning for absolute video */
+    overflow: hidden; /* Clip video if it overflows */
+}
+
+.international-packages-section .hero-video {
+    position: absolute; /* Position video absolutely within the section */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 105%;
+    object-fit: cover;
+    z-index: -1; /* Push video to the background */
+}
+
+.international-packages-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* Optional: Add a dark overlay for text contrast */
+    z-index: -1; /* Place overlay also in background, behind content but above video */
+}
+
+.international-packages-section .container {
+    position: relative; /*  Ensure container content is above the video and overlay */
+    z-index: 0; /*  Ensure container content is above the video and overlay */
+}
+
+
+.international-packages-section h2 {
+    color: #585050;
+    font-size: 2.4em;
+    font-weight: 700;
+    margin-bottom: 35px;
+    letter-spacing: -0.8px;
+}
+
+.international-packages-section h2 span {
+    color: #000000;
+}
+
+.international-packages-section .section-description {
+    max-width: 850px;
+    margin: 25px auto 40px;
+    color: #666;
+    line-height: 1.7;
+    font-size: 1.05em;
+}
+
+.international-packages-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.international-tour-card {
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    border: 1px solid #eee;
+}
+
+.international-tour-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.international-tour-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    opacity: 0.97;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.international-tour-card:hover img {
+    opacity: 1;
+}
+
+.international-tour-card h3 {
+    margin: 20px 25px 15px;
+    color: #3a3a3a;
+    font-size: 1.2em;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.international-tour-card .button-container {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.international-tour-card .animated-button {
+    background-color: #151748;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.international-tour-card .animated-button:hover {
+    background-color: #a0885a;
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* ... rest of your CSS ... */
+
+/* Client Reviews Section */
+.client-reviews-section {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #f2eee1;
+}
+
+.client-reviews-section h2 {
+    color: #3a3a3a;
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 30px;
+    letter-spacing: -0.5px;
+}
+
+.reviews-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    position: relative;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .reviews-container {
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+    }
+}
+
+.reviews-image {
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .reviews-image {
+        margin-bottom: 0;
+    }
+}
+
+.review-carousel {
+    width: 100%;
+    max-width: 800px;
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+}
+
+@media (min-width: 768px) {
+    .review-carousel {
+        width: 75%;
+    }
+}
+
+.review-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    text-align: left;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    pointer-events: none;
+}
+
+.review-card.active {
+    opacity: 1;
+    position: relative;
+    z-index: 1;
+    pointer-events: auto;
+}
+
+.review-card.fade-out {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.review-card.fade-in {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.google-icon {
+    color: #ffc107;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    opacity: 0.6;
+}
+
+.review-text {
+    color: #666;
+    line-height: 1.5;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.review-author {
+    font-style: italic;
+    color: #888;
+    text-align: right;
+    font-size: 0.85em;
+    margin-right: 40px;
+}
+
+/* Travel Tips Section */
+.travel-tips-section {
+    padding: 90px 0;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.travel-tips-section h2 {
+    color: #3a3a3a;
+    font-size: 2.4em;
+    font-weight: 700;
+    margin-bottom: 35px;
+    letter-spacing: -0.8px;
+}
+
+.tips-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.tip-card {
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    border: 1px solid #eee;
+}
+
+.tip-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.tip-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    opacity: 0.93;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.tip-card:hover img {
+    opacity: 1;
+}
+
+.tip-card .tip-date {
+    display: block;
+    padding: 12px 25px;
+    background-color: #fdfdfd;
+    color: #888;
+    font-size: 0.9em;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+}
+
+.tip-card h3 {
+    margin: 20px 25px 15px;
+    color: #3a3a3a;
+    font-size: 1.2em;
+    font-weight: 600;
+    line-height: 1.3;
+    text-align: left;
+}
+
+.tip-card .tip-description {
+    margin: 0 25px 20px;
+    color: #777;
+    font-size: 0.95em;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.tip-card .read-more {
+    color: #151748;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease-in-out;
+    font-size: 0.9em;
+    display: block;
+    margin-top: 15px;
+    text-align: left;
+    padding-left: 25px;
+}
+
+.tip-card .read-more:hover {
+    color: #006666;
+    text-decoration: underline;
+}
+
+/* Fade-in animation for sections */
+.quick-actions-section,
+.packages-section,
+.summer-tours-section,
+.stats-section,
+.mumbai-tours-section,
+.international-packages-section,
+.client-reviews-section,
+.travel-tips-section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in-section {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.container > * {
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.quick-actions-section.fade-in-section .card,
+.packages-section.fade-in-section .tour-card,
+.summer-tours-section.fade-in-section .summer-tour-card,
+.stats-section.fade-in-section .stat-item,
+.international-packages-section.fade-in-section .international-tour-card,
+.client-reviews-section.fade-in-section .reviews-container,
+.travel-tips-section.fade-in-section .tip-card {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.quick-actions-section .card,
+.packages-section .tour-card,
+.summer-tours-section .summer-tour-card,
+.stats-section .stat-item,
+.international-packages-section .international-tour-card,
+.client-reviews-section .reviews-container,
+.travel-tips-section .tip-card {
+    opacity: 0;
+    transform: translateY(15px);
+}
+
+.scrolling-cards .tour-card {
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.scrolling-cards .tour-card:nth-child(1) { transition-delay: 0.05s; }
+.scrolling-cards .tour-card:nth-child(2) { transition-delay: 0.1s; }
+.scrolling-cards .tour-card:nth-child(3) { transition-delay: 0.15s; }
+.scrolling-cards .tour-card:nth-child(4) { transition-delay: 0.2s; }
+.scrolling-cards .tour-card:nth-child(5) { transition-delay: 0.25s; }
+.scrolling-cards .tour-card:nth-child(6) { transition-delay: 0.3s; }
+
+/* Star Rating Fade-in */
+.review-rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    gap: 8px;
+}
+
+.review-rating .numeric-rating {
+    font-size: 0.95em;
+    font-weight: bold;
+    color: #3a3a3a;
+}
+
+.review-rating .star-icons {
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.review-card.active .review-rating .star-icons,
+.review-card.fade-in .review-rating .star-icons {
+    opacity: 1;
+}
+
+.review-rating .golden-star-icon {
+    color: #ffc107;
+    font-size: 0.85em;
+    margin-right: 1px;
+}
+
+.review-rating .grey-star-icon {
+    color: #cccccc;
+    font-size: 0.85em;
+    margin-right: 1px;
+    opacity: 0.6;
+}
+
+.review-rating .star-description {
+    font-size: 0.9em;
+    color: #777;
+}

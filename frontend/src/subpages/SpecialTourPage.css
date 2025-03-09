@@ -1,0 +1,288 @@
+/* SpecialTourPage.css - Styles for Special Tour Pages (inheriting from HomePage) */
+
+/*  Importantly, we are NOT duplicating all of HomePage.css.
+    We are taking the base styles and then adding/adjusting for this specific page. */
+
+/*  Base styles (taken from HomePage.css) -  Adjust as needed */
+.home-page-content { /* Re-using home-page-content for base font and colors */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #4a4a4a; /* Updated to #4a4a4a to match HomePage general text color */
+    line-height: 1.6; /* Updated to 1.6 to match HomePage line-height */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* --- Special Tour Page Specific Styles Below --- */
+
+.special-tour-page-content {
+    padding-top: 80px; /* Updated padding-top to 80px to be consistent with HomePage section paddings */
+}
+
+.special-tour-header {
+    text-align: center;
+    margin-bottom: 50px; /* Updated margin-bottom to 50px for better spacing */
+    position: relative; /* Make header relative for video positioning */
+    overflow: hidden; /* Clip video if it overflows */
+    color: white; /* Set default text color for header content on video */
+    padding-top: 140px; /* Adjust padding as needed for vertical space */
+    padding-bottom: 140px; /* Adjust padding as needed for vertical space */
+    display: flex; /* Enable flexbox for content centering */
+    flex-direction: column; /* Stack header content vertically */
+    justify-content: center; /* Vertically center header content */
+    align-items: center; /* Horizontally center header content */
+}
+
+.special-tour-header .hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Place video behind content */
+}
+
+.special-tour-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Dark overlay for better text readability */
+    z-index: -1; /* Place overlay behind content, above video */
+}
+
+.special-tour-header .header-content {
+    position: relative; /* Ensure header text is above overlay and video */
+    z-index: 0;
+    width: 100%; /* Make header content take full width */
+    padding: 0 20px; /* Add horizontal padding for text if needed, adjust as needed */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+
+.special-tour-header h1 {
+    font-size: 3.4em; /* Updated font-size to 3.4em to match HomePage packages-section h2 */
+    font-weight: 700; /* Updated font-weight to 700 to match HomePage packages-section h2 */
+    margin-bottom: 25px; /* Updated margin-bottom to 25px to match HomePage packages-section h2 */
+    color: #c4baba; /* Light color for text on video */
+    letter-spacing: -0.8px; /* Added letter-spacing to match HomePage packages-section h2 */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.7); /* Optional: Text shadow for better visibility on video */
+}
+
+.special-tour-header p {
+    color: #ffffff; /* Light color for text on video */
+    font-size: 1.05em; /* Updated font-size to 1.05em to match HomePage international-packages-section description */
+    max-width: 850px; /* Added max-width for better readability */
+    margin: 0 auto; /* Center paragraph */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.7); /* Optional: Text shadow for better visibility on video */
+}
+
+.special-tour-header a {
+    color: #ffffff; /* Light color for links on video */
+    text-decoration: none;
+    font-weight: 600; /* Added font-weight to make links bolder */
+}
+
+.special-tour-header a:hover {
+    text-decoration: underline;
+    color: #ddd; /* Updated hover color for light text */
+}
+
+
+/* Tour Details Section */
+.tour-details-section {
+    margin-bottom: 60px; /* Updated margin-bottom to 60px for better section spacing */
+}
+
+.tour-details-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Updated minmax to 300px for wider cards */
+    gap: 30px; /* Updated gap to 30px to match HomePage grid gaps */
+}
+
+.tour-details-grid .detail-item {
+    background-color: #fff; /* White cards like HomePage */
+    padding: 30px; /* Updated padding to 30px for more space inside cards */
+    border-radius: 12px; /* Updated border-radius to 12px to match HomePage cards */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08); /* Updated box-shadow to match HomePage cards */
+    text-align: center;
+    border: 1px solid #eee; /* Added border to match HomePage cards */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Added transition for hover effect */
+}
+
+.tour-details-grid .detail-item:hover {
+    transform: translateY(-6px); /* Added hover transform like HomePage cards */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Added hover shadow like HomePage cards */
+}
+
+.tour-details-grid .detail-item h3 {
+    font-size: 1.4em; /* Updated font-size to 1.4em to be more prominent */
+    font-weight: 600; /* Updated font-weight to 600 to be consistent */
+    margin-bottom: 15px; /* Updated margin-bottom to 15px for better spacing */
+    color: #3a3a3a;
+}
+
+.tour-details-grid .detail-item p {
+    color: #777; /* Updated color to #777 to match HomePage card paragraph color */
+    font-size: 0.95em; /* Updated font-size to 0.95em to be consistent with card paragraph sizes */
+    line-height: 1.5; /* Added line-height for better readability */
+}
+
+.tour-details-grid .book-now h3 {
+    color: #151748; /* Updated to #151748 to match HomePage primary color */
+}
+
+
+/* Tour Packages Section */
+.tour-packages-section {
+    padding: 80px 0; /* Updated padding to 80px 0 to match HomePage section paddings */
+    background-color: #f9f9f9; /* Added background color to match HomePage sections */
+}
+
+.tour-packages-section h2 {
+    text-align: center;
+    font-size: 2.4em; /* Updated font-size to 2.4em to match HomePage summer-tours-section h2 */
+    font-weight: 700; /* Updated font-weight to 700 to match HomePage summer-tours-section h2 */
+    margin-bottom: 35px; /* Updated margin-bottom to 35px to match HomePage summer-tours-section h2 */
+    color: #3a3a3a;
+    letter-spacing: -0.8px; /* Added letter-spacing to match HomePage summer-tours-section h2 */
+}
+
+.tour-packages-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* Updated minmax to 320px to match HomePage summer-tours-grid */
+    gap: 30px; /* Updated gap to 30px to match HomePage summer-tours-grid */
+}
+
+.tour-package-card {
+    background-color: #fff;
+    border-radius: 12px; /* Updated border-radius to 12px to match HomePage cards */
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08); /* Updated box-shadow to match HomePage cards */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    border: 1px solid #eee; /* Added border to match HomePage cards */
+}
+
+.tour-package-card:hover {
+    transform: translateY(-6px); /* Added hover transform like HomePage cards */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Added hover shadow like HomePage cards */
+}
+
+.tour-package-card img {
+    width: 100%;
+    height: 200px; /* Example image height */
+    object-fit: cover;
+    display: block;
+}
+
+.tour-package-card h3 {
+    margin: 20px 25px 15px; /* Updated margins to match HomePage summer-tour-card h3 */
+    font-size: 1.2em; /* Updated font-size to 1.2em to match HomePage summer-tour-card h3 */
+    font-weight: 600; /* Updated font-weight to 600 to match HomePage summer-tour-card h3 */
+    color: #3a3a3a;
+    line-height: 1.3; /* Added line-height to match HomePage summer-tour-card h3 */
+}
+
+
+.tour-package-card .view-package-button {
+    display: block;
+    background-color: #151748; /* Updated to #151748 to match HomePage primary button color */
+    color: white;
+    border: none;
+    padding: 12px 22px; /* Updated padding to 12px 22px to match HomePage view-tour-button */
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px; /* Updated border-radius to 8px to match HomePage buttons */
+    cursor: pointer;
+    font-size: 1em; /* Updated font-size to 1em to match HomePage view-tour-button */
+    font-weight: 600; /* Updated font-weight to 600 to match HomePage buttons */
+    margin: 20px 25px 25px; /* Updated margins to match HomePage summer-tour-card .tour-button */
+    width: fit-content; /* Button width to content */
+    transition: background-color 0.2s ease-in-out, transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out; /* Added transition for transform and box-shadow */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added box-shadow to match HomePage buttons */
+}
+
+.tour-package-card .view-package-button:hover {
+    background-color: #006666; /* Updated hover color to match HomePage button hover */
+    transform: scale(1.02); /* Added scale on hover to match HomePage buttons hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Added box-shadow on hover to match HomePage buttons hover */
+}
+
+/* --- Video Header Styles for SpecialTourPage --- */
+.special-tour-header {
+    text-align: center;
+    margin-bottom: 50px; /* Updated margin-bottom to 50px for better spacing */
+    position: relative; /* Make header relative for video positioning */
+    overflow: hidden; /* Clip video if it overflows */
+    color: white; /* Set default text color for header content on video */
+    padding-top: 140px; /* Adjust padding as needed for vertical space */
+    padding-bottom: 140px; /* Adjust padding as needed for vertical space */
+    display: flex; /* Enable flexbox for content centering */
+    flex-direction: column; /* Stack header content vertically */
+    justify-content: center; /* Vertically center header content */
+    align-items: center; /* Horizontally center header content */
+}
+
+.special-tour-header .hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Place video behind content */
+}
+
+.special-tour-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Dark overlay for better text readability */
+    z-index: -1; /* Place overlay behind content, above video */
+}
+
+.special-tour-header .header-content {
+    position: relative; /* Ensure header text is above overlay and video */
+    z-index: 0;
+    width: 100%; /* Make header content take full width */
+    padding: 0 20px; /* Add horizontal padding for text if needed, adjust as needed */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+
+.special-tour-header h1 {
+    font-size: 3.4em; /* Updated font-size to 3.4em to match HomePage packages-section h2 */
+    font-weight: 700; /* Updated font-weight to 700 to match HomePage packages-section h2 */
+    margin-bottom: 25px; /* Updated margin-bottom to 25px to match HomePage packages-section h2 */
+    color: #c4baba; /* Light color for text on video */
+    letter-spacing: -0.8px; /* Added letter-spacing to match HomePage packages-section h2 */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.7); /* Optional: Text shadow for better visibility on video */
+}
+
+.special-tour-header p {
+    color: #ffffff; /* Light color for text on video */
+    font-size: 1.05em; /* Updated font-size to 1.05em to match HomePage international-packages-section description */
+    max-width: 850px; /* Added max-width for better readability */
+    margin: 0 auto; /* Center paragraph */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.7); /* Optional: Text shadow for better visibility on video */
+}
+
+.special-tour-header a {
+    color: #ffffff; /* Light color for links on video */
+    text-decoration: none;
+    font-weight: 600; /* Added font-weight to make links bolder */
+}
+
+.special-tour-header a:hover {
+    text-decoration: underline;
+    color: #ddd; /* Updated hover color for light text */
+}

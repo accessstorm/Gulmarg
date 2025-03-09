@@ -1,0 +1,91 @@
+/* DomesticTourPage.css - Styles for Domestic Tour Page */
+
+/* Import base styles from HomePage and reuse InternationalTourPage styles */
+@import './InternationalTourPage.css';
+
+/* --- DomesticTourPage Specific Styles Below (if any) --- */
+/* You can add specific styles for DomesticTourPage here if needed.
+   If you want to reuse the styles from InternationalTourPage, you don't need to add much here initially. */
+
+
+.domestic-tour-page-content {
+    padding-top: 80px; /* Updated padding-top to 80px to match HomePage section paddings */
+    padding-bottom: 80px; /* Updated padding-bottom to 80px to match HomePage section paddings */
+}
+
+.domestic-tour-header {
+    /* Example: Slightly different header styling */
+    text-align: center; /* Center align header for domestic tours */
+    margin-bottom: 50px; /* Updated margin-bottom to 50px for better spacing and consistency */
+    position: relative; /* Make header relative for video positioning */
+    overflow: hidden; /* Clip video if it overflows */
+    color: white; /* Set default text color for header content on video */
+    /* Reduced top and bottom padding to minimize space, adjust as needed */
+    padding-top: 100px; /* Reduced top padding */
+    padding-bottom: 100px; /* Reduced bottom padding */
+    display: flex; /* Enable flexbox for content centering */
+    flex-direction: column; /* Stack header content vertically */
+    justify-content: center; /* Vertically center header content */
+    align-items: center; /* Horizontally center header content */
+}
+
+.domestic-tour-header .hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Place video behind content */
+}
+
+.domestic-tour-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Dark overlay for better text readability */
+    z-index: -1; /* Place overlay behind content, above video */
+}
+
+.domestic-tour-header .header-content {
+    position: relative; /* Ensure header text is above overlay and video */
+    z-index: 0;
+    width: 100%; /* Make header content take full width */
+    padding: 0 20px; /* Add horizontal padding for text if needed, adjust as needed */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+
+.domestic-tour-header h1 {
+    font-size: 3.4em; /* Updated font-size to 3.4em to match HomePage packages-section h2 */
+    font-weight: 700; /* Updated font-weight to 700 to match HomePage packages-section h2 */
+    margin-bottom: 25px; /* Updated margin-bottom to 25px to match HomePage packages-section h2 */
+    color: #ebe6e6; /* Light color for text on video */
+    letter-spacing: -0.8px; /* Added letter-spacing to match HomePage packages-section h2 */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.7); /* Optional: Text shadow for better visibility on video */
+}
+
+.domestic-tour-header p {
+    color: #ffffff; /* Light color for text on video */
+    font-size: 1.05em; /* Updated font-size to 1.05em to match HomePage international-packages-section description */
+    margin-bottom: 0;
+    line-height: 1.7; /* Added line-height to match HomePage international-packages-section description */
+    text-align: center; /* Center align paragraph text */
+    max-width: 850px; /* Added max-width for better readability */
+    margin: 0 auto; /* Center the paragraph */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.7); /* Optional: Text shadow for better visibility on video */
+}
+
+.domestic-tour-header a {
+    color: #ffffff; /* Light color for links on video */
+    text-decoration: none;
+    font-weight: 600; /* Added font-weight to match HomePage links and buttons */
+}
+
+.domestic-tour-header a:hover {
+    text-decoration: underline;
+    color: #ddd; /* Slightly different hover color for light text */
+}

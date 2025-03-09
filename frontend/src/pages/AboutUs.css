@@ -1,0 +1,358 @@
+/* AboutUsPage.css - Styles for About Us Page - Themed to HomePage.css */
+
+.about-us-page-content {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #4a4a4a; /* Updated to #4a4a4a from HomePage general text color */
+    line-height: 1.6;
+}
+
+.about-us-header {
+    height: 450px; /* Slightly shorter header for About Us */
+    background-position: center;
+    background-size: cover; /* Cover to ensure full background */
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.about-us-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Carousel overlay color from HomePage - slightly lighter */
+}
+
+.about-us-header .overlay {
+    position: relative;
+    z-index: 1;
+}
+
+.about-us-header h1 {
+    font-size: 3.5em; /* Adjusted header font size */
+    font-weight: 900; /* Updated font-weight to 900 to match HomePage carousel h1 */
+    margin-bottom: 10px;
+    color: #c4baba; /* Updated header h1 color to match HomePage carousel h1 span color */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.7); /* Text shadow consistent with HomePage carousel */
+}
+
+.about-us-header p {
+    font-size: 1.2em;
+    font-weight: 400;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.7); /* Text shadow consistent with HomePage carousel */
+    max-width: 700px;
+    margin: 0 auto;
+    color: #c4baba; /* Updated header paragraph color to match HomePage carousel h1 span color */
+}
+
+
+.section-padding {
+    padding: 70px 0; /* Updated padding to 70px 0 to match HomePage quick-actions-section */
+    background-color: #f9f9f9; /* Light grey background from HomePage sections */
+}
+
+.section-padding .container {
+    max-width: 1200px; /* Updated container width to 1200px to match HomePage container */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section-padding h2 {
+    color: #3a3a3a; /* Consistent text color */
+    font-size: 2.4em; /* Updated font-size to 2.4em to match HomePage summer-tours-section h2 */
+    font-weight: 700; /* Updated font-weight to 700 to match HomePage summer-tours-section h2 */
+    margin-bottom: 35px; /* Updated margin-bottom to 35px to match HomePage summer-tours-section h2 */
+    text-align: center;
+    letter-spacing: -0.8px; /* Added letter-spacing to match HomePage summer-tours-section h2 */
+}
+
+.section-padding .section-description {
+    color: #666; /* Consistent secondary text color */
+    font-size: 1.05em; /* Updated font-size to 1.05em to match HomePage international-packages-section .section-description */
+    line-height: 1.7;
+    margin-bottom: 40px; /* Updated margin-bottom to 40px to match HomePage international-packages-section .section-description */
+    text-align: justify; /* Justify text for better readability */
+}
+
+.section-padding .image-container {
+    text-align: center; /* Center the image */
+    margin-top: 20px;
+}
+
+.section-padding .image-container img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.08); /* Lighter shadow to match HomePage cards */
+}
+
+/* Mission and Values Section */
+.mission-values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); /* Updated minmax to 340px to match HomePage tips-grid and quick-actions-section */
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.value-card {
+    background-color: #fff; /* White card background - consistent */
+    padding: 40px 30px; /* Updated padding to 40px 30px to match HomePage quick-actions-section .card */
+    border-radius: 12px; /* Rounded corners to match HomePage cards */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08); /* Shadow to match HomePage cards */
+    text-align: center;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    border: 1px solid #eee; /* Add border like HomePage cards */
+}
+
+.value-card:hover {
+    transform: translateY(-8px); /* Hover transform like HomePage cards, updated to -8px to match HomePage quick-actions-section .card:hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Hover shadow like HomePage cards */
+}
+
+.value-icon {
+    font-size: 2.5em;
+    color: #151748; /* Updated to #151748 to match HomePage icon color from quick-actions-section and stats-section */
+    margin-bottom: 20px;
+    opacity: 0.9; /* Added opacity to match HomePage quick-actions-section .icon */
+    display: block; /* Added display block and text-align center for icon alignment */
+    text-align: center;
+}
+
+.value-card h3 {
+    color: #3a3a3a; /* Consistent text color */
+    font-size: 1.4em; /* Updated font-size to 1.4em to match HomePage quick-actions-section h3 */
+    font-weight: 700; /* Updated font-weight to 700 to match HomePage quick-actions-section h3 */
+    margin-bottom: 10px; /* Updated margin-bottom to 10px to match HomePage quick-actions-section h3 */
+    margin-top: 0; /* Added margin-top to 0 to match HomePage quick-actions-section h3 */
+}
+
+.value-card p {
+    color: #666; /* Updated color to #666 to match HomePage quick-actions-section p */
+    font-size: 1em; /* Updated font-size to 1em to match HomePage quick-actions-section p */
+    line-height: 1.6;
+    font-weight: 400; /* Added font-weight to match HomePage quick-actions-section p */
+}
+
+/* Stats Section for About Us Page - slight background change */
+.stats-section.stats-about-us {
+    background-color: #f2eee1; /* Stats section background from HomePage */
+    color: #2a2f30; /* Updated to #2a2f30 to match HomePage stats-section color */
+    padding: 70px 0; /* Padding from HomePage stats section */
+    text-align: center; /* Text align from HomePage stats section */
+    border-top: 1px solid #e0e0e0; /* Border from HomePage stats section */
+    border-bottom: 1px solid #e0e0e0; /* Border from HomePage stats section */
+    margin-top: 80px; /* Add margin to separate from other sections if needed */
+}
+
+
+/* Why Choose Us Section */
+.why-choose-us-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); /* Updated minmax to 340px to match HomePage tips-grid and quick-actions-section */
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.choose-card {
+    background-color: #fff; /* White card background - consistent */
+    padding: 40px 30px; /* Updated padding to 40px 30px to match HomePage quick-actions-section .card */
+    border-radius: 12px; /* Rounded corners to match HomePage cards */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08); /* Shadow to match HomePage cards */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    border: 1px solid #eee; /* Add border like HomePage cards */
+    text-align: left; /* Updated text-align to left to match HomePage quick-actions-section .card */
+}
+
+.choose-card:hover {
+    transform: translateY(-8px); /* Hover transform like HomePage cards, updated to -8px to match HomePage quick-actions-section .card:hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Hover shadow like HomePage cards */
+}
+
+.choose-card h3 {
+    color: #3a3a3a; /* Consistent text color */
+    font-size: 1.4em; /* Updated font-size to 1.4em to match HomePage quick-actions-section h3 */
+    font-weight: 700; /* Updated font-weight to 700 to match HomePage quick-actions-section h3 */
+    margin-bottom: 10px; /* Updated margin-bottom to 10px to match HomePage quick-actions-section h3 */
+    text-align: left; /* Updated text-align to left to match HomePage quick-actions-section h3 */
+    margin-top: 0; /* Added margin-top to 0 to match HomePage quick-actions-section h3 */
+}
+
+.choose-card p {
+    color: #666; /* Updated color to #666 to match HomePage quick-actions-section p */
+    font-size: 1em; /* Updated font-size to 1em to match HomePage quick-actions-section p */
+    line-height: 1.6;
+    text-align: left; /* Updated text-align to left to match HomePage quick-actions-section p */
+    font-weight: 400; /* Added font-weight to match HomePage quick-actions-section p */
+}
+
+/* Our Team Section */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.team-member {
+    background-color: #fff; /* White card background - consistent */
+    border-radius: 12px; /* Rounded corners to match HomePage cards */
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08); /* Shadow to match HomePage cards */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    border: 1px solid #eee; /* Add border like HomePage cards */
+}
+
+.team-member:hover {
+    transform: translateY(-6px); /* Hover transform like HomePage cards */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Hover shadow like HomePage cards */
+}
+
+.team-member img {
+    width: 100%;
+    height: 250px; /* Fixed height for team images */
+    object-fit: cover;
+    border-bottom: 1px solid #eee;
+}
+
+.team-member h3 {
+    color: #3a3a3a; /* Consistent text color */
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.team-member .team-title {
+    color: #151748; /* Updated to #151748 to match HomePage icon color and primary button color */
+    font-size: 0.95em;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.team-member .team-description {
+    color: #777; /* Consistent secondary text color */
+    font-size: 0.95em;
+    line-height: 1.5;
+    padding: 0 20px 25px 20px;
+}
+
+/* Contact Us Section */
+.contact-us {
+    background-color: #f2eee1; /* Client Reviews Section background from HomePage - Light beige/cream */
+    text-align: center;
+    padding: 80px 0; /* Padding from HomePage client reviews section */
+}
+
+.contact-us .container {
+    max-width: 800px; /* Narrower container for contact section */
+}
+
+.contact-us h2 {
+    font-size: 2.3em;
+    margin-bottom: 20px;
+    color: #3a3a3a; /* Consistent text color */
+    font-weight: 600; /* Added font-weight to match section headings */
+}
+
+.contact-us .contact-description {
+    color: #666; /* Consistent secondary text color */
+    font-size: 1.05em; /* Updated font-size to 1.05em to match HomePage international-packages-section .section-description */
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
+    margin-bottom: 40px; /* Add margin to separate from fade-in sections if needed */
+}
+
+.contact-button {
+    padding: 14px 28px; /* Padding from HomePage 'view-more-button' */
+    border-radius: 8px; /* Border radius from HomePage 'view-more-button' */
+    border: 1px solid #ccc; /* Border from HomePage 'view-more-button' */
+    font-size: 1.05em; /* Font size from HomePage 'view-more-button' */
+    font-weight: 600; /* Font weight from HomePage 'view-more-button' */
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out, transform 0.15s ease-in-out; /* Transitions from HomePage 'view-more-button' + scale */
+    background-color: #fff; /* Background color from HomePage 'view-more-button' */
+    color: #3a3a3a; /* Text color from HomePage 'view-more-button' */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow from HomePage 'view-more-button' */
+}
+
+.contact-button:hover {
+    transform: scale(1.02); /* Scale on hover like HomePage buttons */
+    background-color: #f0f0f0; /* Hover background from HomePage 'view-more-button' */
+    border-color: #bbb; /* Hover border color from HomePage 'view-more-button' */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Hover shadow from HomePage 'view-more-button' */
+}
+
+.contact-button.primary {
+    background-color: #151748; /* Updated to #151748 to match HomePage 'view-tour-button' and primary color */
+    color: white; /* Primary button text color from HomePage 'view-tour-button' */
+    border: none; /* Remove border for primary buttons */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow from HomePage 'view-tour-button' */
+    font-size: 1em; /* Font size from HomePage 'view-tour-button' - adjusted slightly smaller */
+    font-weight: 600; /* Font weight from HomePage 'view-tour-button' */
+    padding: 12px 22px; /* Padding from HomePage 'view-tour-button' - adjusted slightly smaller */
+    border-radius: 8px; /* Border radius from HomePage 'view-tour-button' */
+}
+
+.contact-button.primary:hover {
+    background-color: #006666; /* Primary button hover background from HomePage 'view-tour-button' */
+    transform: scale(1.02); /* Scale on hover like other HomePage buttons */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Hover shadow from HomePage 'view-tour-button' */
+}
+
+
+/* Fade-in Animation for Sections - Consistent with HomePage */
+.about-us-header,
+.our-story,
+.mission-values,
+.stats-section,
+.why-choose-us,
+.our-team,
+.contact-us {
+    opacity: 0;
+    transform: translateY(20px); /* Reduced translateY to match HomePage fade-in */
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out; /* Transition duration to match HomePage fade-in */
+}
+
+.fade-in-section {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Optional: Staggered animation for elements within sections - Consistent with HomePage timing */
+.section-padding .container > *,
+.mission-values-grid .value-card,
+.why-choose-us-grid .choose-card,
+.team-grid .team-member,
+.contact-buttons .contact-button{
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out; /* Transition duration to match HomePage staggered elements */
+}
+
+.mission-values-grid .value-card:nth-child(1) { transition-delay: 0.05s; } /* Delay values adjusted to be closer to HomePage */
+.mission-values-grid .value-card:nth-child(2) { transition-delay: 0.1s; }
+.mission-values-grid .value-card:nth-child(3) { transition-delay: 0.15s; }
+.mission-values-grid .value-card:nth-child(4) { transition-delay: 0.2s; }
+
+.why-choose-us-grid .choose-card:nth-child(1) { transition-delay: 0.05s; }
+.why-choose-us-grid .choose-card:nth-child(2) { transition-delay: 0.1s; }
+.why-choose-us-grid .choose-card:nth-child(3) { transition-delay: 0.15s; }
+.why-choose-us-grid .choose-card:nth-child(4) { transition-delay: 0.2s; }
+
+.team-grid .team-member:nth-child(1) { transition-delay: 0.05s; }
+.team-grid .team-member:nth-child(2) { transition-delay: 0.1s; }
+.team-grid .team-member:nth-child(3) { transition-delay: 0.15s; }
+
+.contact-buttons .contact-button:nth-child(1) { transition-delay: 0.05s; }
+.contact-buttons .contact-button:nth-child(2) { transition-delay: 0.1s; }

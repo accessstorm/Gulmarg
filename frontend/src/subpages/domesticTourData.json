@@ -1,0 +1,642 @@
+{
+    "domesticTours": [
+      {
+        "name": "ashtavinayak-darshan",
+        "pageTitle": "Ashtavinayak Darshan",
+        "tourName": "Ashtavinayak Darshan",
+        "briefDescription": "Come join with us on a tour for Ashtavinayak tour from Mumbai with Swastik tours. Ashtavinayak darshan from mumbai is one of the most popular pilgrims of Maharashtra.",
+        "duration": "1-2 Nights / 2-3 Days",
+        "packagePrice": "Varies",
+        "minAge": "All Ages",
+        "pickup": "Car / Bus",
+        "aboutTourDescription": "Ashtavinayak which means eight Ganeshas, is a yatra or a pilgrimage to eight Hindu temples in the state of Maharashtra, India. This darshan is a holy trip that houses eight different idols of Lord Ganesha which includes Moreshwar, Mahaganpati, Chintamani, Girijatmaj, Vigneshwar, Siddhivinayak, Ballaleshwar and Varad Vinayak.",
+        "tourPackagesSectionTitle": "Ashtavinayak Tour Packages",
+        "tourPackagesSectionDescription": "Explore our Ashtavinayak Tour from Mumbai. The eight temples are named and sequenced as follows: Varadvinayak, Ballaleshwar, Mahaganpati, Chintamani, Siddhivinayak, Mayureshwar, Vighneshwar, Girijatmaj. You may personalize your Ahstavinayak tour package however depending on your choices.",
+        "planVacationSectionTitle": "Book your Ashtavinayak Tour",
+        "planVacationSectionDescription": "Among the most recognized travel tour in India is the Ashtavinayak Tour. “Ashtavinayak” or “Eight Ganeshas” is a popular Hindu deity known to foster learning, unity, and prosperity. Ashtavinayak refers to the eight temples of Lord Ganesha situated in Maharashtra.",
+        "itinerary": [
+          { "day": "Day 1-3", "description": "Visit Varadvinayak, Ballaleshwar, Mahaganpati, Chintamani, Siddhivinayak, Mayureshwar, Vighneshwar, Girijatmaj temples as per package duration." }
+        ],
+        "priceCost": "Varies",
+        "tourDetails": [
+          { "label": "Tour Type", "value": "Domestic Tour" },
+          { "label": "Days", "value": "1-2 Nights / 2-3 Days" },
+          { "label": "Packages", "value": "Customizable Packages" },
+          { "label": "Categories", "value": "Ashtavinayak Darshan" },
+          { "label": "Tours Includes", "value": "Transport, Sightseeing, Accommodation (Optional)" },
+          { "label": "Payment Module", "value": "Online Payment, Bank Transfer" }
+        ],
+        "inclusions": [
+          "Transportation by Car/Bus",
+          "Sightseeing as per itinerary"
+        ],
+        "exclusions": [
+          "Accommodation (Optional)",
+          "Meals",
+          "Entrance fees to temples",
+          "Personal Expenses"
+        ]
+      },
+      {
+        "name": "konkan-darshan",
+        "pageTitle": "Konkan Darshan",
+        "tourName": "Konkan Darshan",
+        "briefDescription": "The Mesmerizing Konkan line. Konkan is truly a heaven on earth for nature lovers who wish to relax in beaches, adventure to the top of hills and enjoy the beautiful waterfalls and sport in the clean backwaters.",
+        "duration": "Flexible",
+        "packagePrice": "Varies",
+        "minAge": "All Ages",
+        "pickup": "Car / Bus",
+        "aboutTourDescription": "The 720 km long coastline along Maharashtra known as the Konkan is a stretch well known for it’s beautiful beaches, greenery, hills and sea forts. The beaches here are the most beautiful location to be in especially if you love the cool breeze, golden-brown sand and the mesmerizing blue sea. The beaches here are worth a visit.",
+        "tourPackagesSectionTitle": "Konkan Darshan Packages",
+        "tourPackagesSectionDescription": "Swastik Tours Konkan Darshan Package. Most of these beaches and forts are close to Mumbai and Pune, making it easily accessible for weekend getaways or short holiday seekers.",
+        "planVacationSectionTitle": "Build customized Konkan Darshan tour package as per you’re budget and interest",
+        "planVacationSectionDescription": "Explore the new places with Swastik tours Konkan darshan packages from Mumbai. While we have a number of preplanned Konkan darshan tour packages to offer, we also offer customized packages as per you’re requirement.",
+        "itinerary": [
+          { "day": "Day 1-N Days", "description": "Visit various destinations in Konkan like Amboli, Tarkarli, Ganapatipule, Harihareshwar, Diveagar, Murud etc. based on package and duration." }
+        ],
+        "priceCost": "Varies",
+        "tourDetails": [
+          { "label": "Tour Type", "value": "Domestic Tour" },
+          { "label": "Days", "value": "Flexible" },
+          { "label": "Packages", "value": "Sampurn Konkan Darshan, Mini Konkan Darshan, Tarkali - Ganpatipule, Mumbai To Deveagar, Raigad Darshan, Konkan Darshan, Sampurn Konkan Darshan, Mumbai To Alibaug" },
+          { "label": "Categories", "value": "Konkan Darshan" },
+          { "label": "Tours Includes", "value": "Transport, Sightseeing, Accommodation (Optional)" },
+          { "label": "Payment Module", "value": "Online Payment, Bank Transfer" }
+        ],
+        "inclusions": [
+          "Transportation by Car/Bus",
+          "Sightseeing as per itinerary"
+        ],
+        "exclusions": [
+          "Accommodation (Optional)",
+          "Meals",
+          "Entrance fees to forts/attractions",
+          "Personal Expenses"
+        ]
+      },
+      {
+        "name": "kerala",
+        "pageTitle": "Kerala Tour",
+        "tourName": "Kerala Tour Packages",
+        "briefDescription": "Kerala is a paradise on earth perfect for people who wish to enjoy a relaxed vacation in the midst of nature.",
+        "duration": "Flexible",
+        "packagePrice": "Varies",
+        "minAge": "All Ages",
+        "pickup": "Car / Bus",
+        "aboutTourDescription": "Having a pleasant climate throughout the year, this spectacular tropical land with the coast flowing down its entire length and the Western Ghats offers a breathtaking view. Kerala is one of the few destinations in India that has a unique geographical feature making it the most popular tourist destinations in India.",
+        "tourPackagesSectionTitle": "Kerala Tour Packages",
+        "tourPackagesSectionDescription": "Explore Our Best Destinations for KERALA. Select from our range of Kerala tour Package from Mumbai and we assure you wouldn’t have a single dull moment throughout the tour.",
+        "planVacationSectionTitle": "The best Kerala tour package from Mumbai",
+        "planVacationSectionDescription": "The timeless beauty and serenity of this place makes it a must visit place for people at least once in a life time. Swastik tours offer you various Kerala tour packages from Mumbai which includes the Kerala Honeymoon package from Mumbai with airfare, Kerala Jewels, Kerala Majestic and Kerala with Kanyakumari.",
+        "itinerary": [
+          { "day": "Day 1-N Days", "description": "Explore destinations in Kerala like Kochi, Munnar, Alleppey, Thekkady, Kovalam etc. based on package duration and preferences." }
+        ],
+        "priceCost": "Varies",
+        "tourDetails": [
+          { "label": "Tour Type", "value": "Domestic Tour" },
+          { "label": "Days", "value": "Flexible" },
+          { "label": "Packages", "value": "Kerala Honeymoon Special, Kerala Jewels, Kerala Majestic, Kerala with Kanyakumari" },
+          { "label": "Categories", "value": "Kerala" },
+          { "label": "Tours Includes", "value": "Accommodation, Sightseeing, Transport (Optional)" },
+          { "label": "Payment Module", "value": "Online Payment, Bank Transfer" }
+        ],
+        "inclusions": [
+          "Accommodation (Optional)",
+          "Sightseeing as per itinerary"
+        ],
+        "exclusions": [
+          "Transport (Optional)",
+          "Meals",
+          "Entrance fees to attractions",
+          "Personal Expenses"
+        ]
+      },
+      {
+        "name": "karnataka",
+        "pageTitle": "Karnataka Tour",
+        "tourName": "Karnataka Tour Packages",
+        "briefDescription": "Karnataka is a land blessed with beautiful sprawling gardens, serene beaches, national parks wildlife sanctuaries, cascading waterfalls and numerous ancient heritage sites.",
+        "duration": "Flexible",
+        "packagePrice": "Varies",
+        "minAge": "All Ages",
+        "pickup": "Car / Bus",
+        "aboutTourDescription": "The state encompasses the largest number of heritage monuments in India. It is a beautiful state that offers a classic blend of rich culture and modern lifestyle. Come join with us on a tour to this wonderful state by availing our best Karnataka tour package from Mumbai.",
+        "tourPackagesSectionTitle": "Karnataka Tour Packages",
+        "tourPackagesSectionDescription": "Explore our Karnataka Tour from Mumbai",
+        "planVacationSectionTitle": "Book for the Best Karnataka tour package from Mumbai",
+        "planVacationSectionDescription": "Karnataka is undoubtedly one of the best holiday destinations in India. If you are in India, the beautiful scenic treasure of south India should not to be missed.",
+        "itinerary": [
+          { "day": "Day 1-N Days", "description": "Explore destinations in Karnataka like Bangalore, Mysore, Hampi, Coorg, Ooty, Kodaikanal, Wayanad etc. based on package duration and preferences." }
+        ],
+        "priceCost": "Varies",
+        "tourDetails": [
+          { "label": "Tour Type", "value": "Domestic Tour" },
+          { "label": "Days", "value": "Flexible" },
+          { "label": "Packages", "value": "HAMPI-Vijayanagara, BANGLORE – MYSORE, banglore-mysore-ooty, BANGLORE – OOTY, Bangalore-Mysore-Ooty-Kodaikanal, Bangalore-Mysore-Coorg-Wayanad, Bangalore-Mysore-Coorg-Ooty" },
+          { "label": "Categories", "value": "Karnataka" },
+          { "label": "Tours Includes", "value": "Accommodation, Sightseeing, Transport (Optional)" },
+          { "label": "Payment Module", "value": "Online Payment, Bank Transfer" }
+        ],
+        "inclusions": [
+          "Accommodation (Optional)",
+          "Sightseeing as per itinerary"
+        ],
+        "exclusions": [
+          "Transport (Optional)",
+          "Meals",
+          "Entrance fees to attractions",
+          "Personal Expenses"
+        ]
+      },
+      {
+        "name": "himachal",
+        "pageTitle": "Himachal Tour",
+        "tourName": "Himachal Tour Packages",
+        "briefDescription": "Nestled in the snow clad mountains of the western Himalayas, Himachal Pradesh is a land known for it pristine natural beauty.",
+        "duration": "Flexible",
+        "packagePrice": "Varies",
+        "minAge": "All Ages",
+        "pickup": "Car / Bus",
+        "aboutTourDescription": "Himachal Pradesh is a land of fresh Flowing Rivers, hot springs and snow capped mountains, all which is a part of this amazingly beautiful land. This land is full of scenic hill stations, local bazaars, beautiful walking paths, old temples and Tibetan monasteries that make Himachal Pradesh a destination of infinite choices.",
+        "tourPackagesSectionTitle": "Himachal Tour Packages",
+        "tourPackagesSectionDescription": "Explore our Himachal Tour from Mumbai. Swastik tour offers the best Himachal Pradesh tour packages from Mumbai at affordable prices with quality service.",
+        "planVacationSectionTitle": "Keep all your worries aside and head to Himachal Pradesh for a heavenly experience this vacation.",
+        "planVacationSectionDescription": "Take a break from the routine and immerse yourself to the beauty of Himachal Pradesh. Our tour package for Himachal Pradesh from Mumbai includes places like Shimla, Kullu, Manali & Dalhousie which are the most popular tourist attractions.",
+        "itinerary": [
+          { "day": "Day 1-N Days", "description": "Explore destinations in Himachal like Shimla, Manali, Dharamshala, Dalhousie, Kullu etc. based on package duration and preferences." }
+        ],
+        "priceCost": "Varies",
+        "tourDetails": [
+          { "label": "Tour Type", "value": "Domestic Tour" },
+          { "label": "Days", "value": "Flexible" },
+          { "label": "Packages", "value": "WINTER-SPECIAL-HIMACHAL-PACKAGE, himachal-couple-tour, DHARMSHALA-DALHOUSIE, HIMACHAL-STUDENT-PACKAGE, GREAT-HIMACHAL-PACKAGE, MANALI-VOLVO-TOUR-PACKAGE" },
+          { "label": "Categories", "value": "Himachal" },
+          { "label": "Tours Includes", "value": "Accommodation, Sightseeing, Transport (Optional)" },
+          { "label": "Payment Module", "value": "Online Payment, Bank Transfer" }
+        ],
+        "inclusions": [
+          "Accommodation (Optional)",
+          "Sightseeing as per itinerary"
+        ],
+        "exclusions": [
+          "Transport (Optional)",
+          "Meals",
+          "Entrance fees to attractions",
+          "Personal Expenses"
+        ]
+      },
+      {
+        "name": "kashmir",
+        "pageTitle": "Kashmir Tour",
+        "tourName": "Kashmir Tour Packages",
+        "briefDescription": "Visit the most exotic place in India, Kashmir for truly experiencing heaven on earth. It is one of the most overwhelming holiday destinations in India known for its mesmerizing natural beauty and fantastic landscape of stunning lakes and fabulous gardens.",
+        "duration": "Flexible",
+        "packagePrice": "Varies",
+        "minAge": "All Ages",
+        "pickup": "Car / Bus",
+        "aboutTourDescription": "Explore this true gem of India with us on our Kashmir tour packages from Mumbai. Swastik tours offer you a wide variety of Kashmir tour packages from Mumbai to choose from for your vacation. To make your stay a comfortable one, we also arrange professional tour guide to help you through the tour and arrange for accommodation in the best possible property.",
+        "tourPackagesSectionTitle": "Kashmir Tour Packages",
+        "tourPackagesSectionDescription": "Explore our Kashmir Tour from Mumbai. Swastik tour offers the best Kashmir tour packages from Mumbai at affordable prices with quality service.",
+        "planVacationSectionTitle": "Book your vacation with Swastik tours for an amazing Kashmir tour package from Mumbai.",
+        "planVacationSectionDescription": "Enjoy a beautiful ride on the shikara floating on the waters of Dal Lake, exploring the breathtaking views of the snow-clad mountains and much more with us on our journey through this paradise named Kashmir.",
+        "itinerary": [
+          { "day": "Day 1-N Days", "description": "Explore destinations in Kashmir like Srinagar, Pahalgam, Gulmarg, Sonmarg, Katra, Khilanmarg, vaishnodevi etc. based on package duration and preferences." }
+        ],
+        "priceCost": "Varies",
+        "tourDetails": [
+          { "label": "Tour Type", "value": "Domestic Tour" },
+          { "label": "Days", "value": "Flexible" },
+          { "label": "Packages", "value": "beautiful-kashmir, scenic-kashmir, Majestic Kashmir, vaishnodevi tour" },
+          { "label": "Categories", "value": "Kashmir" },
+          { "label": "Tours Includes", "value": "Accommodation, Sightseeing, Transport (Optional)" },
+          { "label": "Payment Module", "value": "Online Payment, Bank Transfer" }
+        ],
+        "inclusions": [
+          "Accommodation (Optional)",
+          "Sightseeing as per itinerary"
+        ],
+        "exclusions": [
+          "Transport (Optional)",
+          "Meals",
+          "Entrance fees to attractions",
+          "Personal Expenses"
+        ]
+      },
+      {
+        "name": "uttarakhand",
+        "pageTitle": "Uttarakhand Tour Package",
+        "tourName": "Uttarakhand Tour Packages",
+        "briefDescription": "Uttarkhand tourism from Mumbai an ideal place for you’re next vacation. Popularly known as the “Dev Bhoomi”, Uttarkhand is a serene land of God situated in the lap of the gorgeous and majestic Himalayas in the northern region of India.",
+        "duration": "Flexible",
+        "packagePrice": "Varies",
+        "minAge": "All Ages",
+        "pickup": "Car / Bus",
+        "aboutTourDescription": "World famous for it’s lush green valleys, picturesque landscapes, spectacular glaciers and mesmerizing beauty of snow capped mountains this beauty shouldn’t be a miss in you’re bucket list of places to visit. Also known for pilgrims, this spiritual land provides various pilgrim opportunities including the Chardham circuit, Haridwar and Rishikesh.",
+        "tourPackagesSectionTitle": "Uttarakhand Tour Packages",
+        "tourPackagesSectionDescription": "Explore Our Best Packages for Uttarkhand. Swastik tours offer a variety of tour packages which includes various splendid hill stations, pilgrims and other nature marvel in the package.",
+        "planVacationSectionTitle": "Swastik tours best Uttarkhand tour package from Mumbai",
+        "planVacationSectionDescription": "At Swastik tours we design and customized Uttarkhand tour package from Mumbai to meet the varied requirements of the clients. We plan and make prior arrangements, to ensure that you are not burdened of any travel worries throughout the trip and enjoy to the fullest.",
+        "itinerary": [
+          { "day": "Day 1-N Days", "description": "Explore destinations in Uttarakhand like Mussoorie, Haridwar, Nainital, Corbett, Rishikesh etc. based on package duration and preferences." }
+        ],
+        "priceCost": "Varies",
+        "tourDetails": [
+          { "label": "Tour Type", "value": "Domestic Tour" },
+          { "label": "Days", "value": "Flexible" },
+          { "label": "Packages", "value": "Mussoorie with Haridwar Tour, Nainital-with-Haridwar-Tour, Mussoorie-Corbett-Naintal-Tour, Uttarakhand-Vacation-Package" },
+          { "label": "Categories", "value": "Uttarakhand" },
+          { "label": "Tours Includes", "value": "Accommodation, Sightseeing, Transport (Optional)" },
+          { "label": "Payment Module", "value": "Online Payment, Bank Transfer" }
+        ],
+        "inclusions": [
+          "Accommodation (Optional)",
+          "Sightseeing as per itinerary"
+        ],
+        "exclusions": [
+          "Transport (Optional)",
+          "Meals",
+          "Entrance fees to attractions",
+          "Personal Expenses"
+        ]
+      },
+      {
+        "name": "rajasthan",
+        "pageTitle": "Rajasthan Tour Package",
+        "tourName": "Rajasthan Tour Packages",
+        "briefDescription": "Best Rajasthan tourism in India. Rajasthan tourism is a classic journey to the glorious past of India’s rich heritage and royal grandeurs.",
+        "duration": "Flexible",
+        "packagePrice": "Varies",
+        "minAge": "All Ages",
+        "pickup": "Car / Bus",
+        "aboutTourDescription": "It is one of the most popular tourism in India enjoyed by both national and international tourists. Rajasthan tour will display its royal, elegant and heart-warming history and culture to the people who visit this spectacular place. Be enchanted by the extravagant Havelis surrounded by historic forts that promise you of a fascinating experience.",
+        "tourPackagesSectionTitle": "Rajasthan Tour Packages",
+        "tourPackagesSectionDescription": "Explore the vibrant cities of Rajasthan with Swastik tours",
+        "planVacationSectionTitle": "Rajasthan which is a vibrant and colorful region of India makes it a wonderful tourism destination in the country.",
+        "planVacationSectionDescription": "Irrespective of any part of the state you are visiting, the appeal of Rajasthan will surely leave you awe struck with its beauty and charm. So, whether you are a leisure holiday seeker, a history enthusiast, or a culture devotee, Rajasthan has something in store for everyone.",
+        "itinerary": [
+          { "day": "Day 1-N Days", "description": "Explore cities in Rajasthan like Jaipur, Jodhpur, Jaisalmer, Udaipur, Pushkar, Ajmer, Bikaner, Mount Abu etc. based on package duration and preferences." }
+        ],
+        "priceCost": "Varies",
+        "tourDetails": [
+          { "label": "Tour Type", "value": "Domestic Tour" },
+          { "label": "Days", "value": "Flexible" },
+          { "label": "Packages", "value": "couple-tour - Rajasthan Tour Package, Family Tour, Student Tour, Jaipur Jodhpur Jaisalmer Bikaner TOUR, Rajasthan Marwad Tour, Rajasthan Mewad Tour, Jaipur Ajmer Pushkar Bikaner Jaisalmer Jodhpur TOUR, Delhi Agra Bharatpur Ranthambore Jaipur TOUR, Rajasthan Premium Tour" },
+          { "label": "Categories", "value": "Rajasthan" },
+          { "label": "Tours Includes", "value": "Accommodation, Sightseeing, Transport (Optional)" },
+          { "label": "Payment Module", "value": "Online Payment, Bank Transfer" }
+        ],
+        "inclusions": [
+          "Accommodation (Optional)",
+          "Sightseeing as per itinerary"
+        ],
+        "exclusions": [
+          "Transport (Optional)",
+          "Meals",
+          "Entrance fees to attractions",
+          "Personal Expenses"
+        ]
+      },
+      {
+        "name": "goa",
+        "pageTitle": "Goa Tour Package",
+        "tourName": "Goa Tour Packages",
+        "briefDescription": "Goa Tour Package. On the western coast of India lies a spectacular destination for people who wish to take a break from their routine.",
+        "duration": "Flexible",
+        "packagePrice": "Varies",
+        "minAge": "All Ages",
+        "pickup": "Car / Bus",
+        "aboutTourDescription": "Be it a weekend getaway, a bachelor trip with friends, or a romantic Goa is a perfect holiday destination for vacation seekers. Goa is one of the most popular tourist destinations in India liked by both national and international tourists. It is one of those bucket list places which is a must visit destination for every beach lovers in India.",
+        "tourPackagesSectionTitle": "Goa Tour Packages",
+        "tourPackagesSectionDescription": "Explore our Ashtavinayak Tour from Mumbai",
+        "planVacationSectionTitle": "Goa is all about exciting adventure, rich culture, historic churches & temples, serene beaches and delicious Goa cuisine.",
+        "planVacationSectionDescription": "So, head to this place with us by booking for our best goa packages from Mumbai to learn more about this favourite destination of India. Make a plan to enjoy your tour in Goa amidst of clean blue waters, white sands, vibrant nightlife and savor on tasteful cuisine in Goa.",
+        "itinerary": [
+          { "day": "Day 1-N Days", "description": "Enjoy beaches, water sports, nightlife, churches, temples, and Portuguese heritage in Goa based on package duration." }
+        ],
+        "priceCost": "Varies",
+        "tourDetails": [
+          { "label": "Tour Type", "value": "Domestic Tour" },
+          { "label": "Days", "value": "Flexible" },
+          { "label": "Packages", "value": "Family Tour, Honeymoon Tour, Student Special Tour, Senior Special Tour, goa-family-tours" },
+          { "label": "Categories", "value": "Goa" },
+          { "label": "Tours Includes", "value": "Accommodation, Activities, Transport (Optional)" },
+          { "label": "Payment Module", "value": "Online Payment, Bank Transfer" }
+        ],
+        "inclusions": [
+          "Accommodation (Optional)",
+          "Sightseeing/Activities as per itinerary"
+        ],
+        "exclusions": [
+          "Transport (Optional)",
+          "Meals",
+          "Entrance fees to attractions/activities",
+          "Personal Expenses"
+        ]
+      },
+      {
+        "name": "hyderabad",
+        "pageTitle": "Hyderabad Tour Packages",
+        "tourName": "Hyderabad Tour Packages",
+        "briefDescription": "Hyderabad Tour Packages. Looking to take a break from routine and monotonous life? Plan a trip to Hyderabad for a relaxed vacation.",
+        "duration": "Flexible",
+        "packagePrice": "Varies",
+        "minAge": "All Ages",
+        "pickup": "Car / Bus",
+        "aboutTourDescription": "Hyderabad is a clean metropolitan city that offers you comfort modern luxuries and gives you a glimpse into the rich history of the city. Right from historical monuments, beautiful lakes colorful bazaars and mouth watering cuisine this city is sure to win your hearts.",
+        "tourPackagesSectionTitle": "Hyderabad Tour Packages",
+        "tourPackagesSectionDescription": "Explore Our Best Packages for Hydrabad",
+        "planVacationSectionTitle": "Our best Hyderabad Tour Package from Mumbai includes exploring the beautiful city and other offbeat places in and around the city which will surely make the trip a memorable one.",
+        "planVacationSectionDescription": "By availing our services you can spend your days in utmost comfort and joy as we plan everything for you as per your convenience.",
+        "itinerary": [
+          { "day": "Day 1-N Days", "description": "Explore Hyderabad city attractions like Charminar, Golconda Fort, Ramoji Film City, Birla Mandir, Hussain Sagar Lake etc. based on package duration and preferences." }
+        ],
+        "priceCost": "Varies",
+        "tourDetails": [
+          { "label": "Tour Type", "value": "Domestic Tour" },
+          { "label": "Days", "value": "Flexible" },
+          { "label": "Packages", "value": "Hydrabad - Ramoji Film City, Hydrabad - Ramoji Film City - Srishailam Tour Package (3N/4D), Hydrabad - Ramoji Film City Tour, Hydrabad - Ramoji Film City - Srishailam Tour Package (4N/5D), Hydrabad (2N/3D)" },
+          { "label": "Categories", "value": "Hyderabad" },
+          { "label": "Tours Includes", "value": "Accommodation, Sightseeing, Transport (Optional)" },
+          { "label": "Payment Module", "value": "Online Payment, Bank Transfer" }
+        ],
+        "inclusions": [
+          "Accommodation (Optional)",
+          "Sightseeing as per itinerary"
+        ],
+        "exclusions": [
+          "Transport (Optional)",
+          "Meals",
+          "Entrance fees to attractions",
+          "Personal Expenses"
+        ]
+      },
+      {
+        "name": "tirupati-balaji",
+        "pageTitle": "Tirupati Balaji Darshan",
+        "tourName": "Tirupati Balaji Darshan Packages",
+        "briefDescription": "Explore divine land of sacred temples through the Tirupati Balaji tourism from Mumbai. Tirupati balaji is one of the most popular religious destinations in India visited by lakhs of people every year.",
+        "duration": "Flexible",
+        "packagePrice": "Varies",
+        "minAge": "All Ages",
+        "pickup": "Car / Bus",
+        "aboutTourDescription": "It is a place of great spiritual importance among many Hindu devotees who come from different parts of the country. Every year a huge swarm of devotees travel to this holy place to immerse themselves in the spirituality of this place and seek blessings of Lord Balaji.",
+        "tourPackagesSectionTitle": "Tirupati Balaji Darshan Packages",
+        "tourPackagesSectionDescription": "Explore Our Best Packages for Tirupati Balaji Darshan. Our Tirupati tour package from Mumbai with airfare will give you a glimpse of this incredible land of scared temples.",
+        "planVacationSectionTitle": "The best Tirupati Balaji tour package from Mumbai offered by Swastik Tours",
+        "planVacationSectionDescription": "We offer you a complete Tirupati Balaji tour package from Mumbai with the best flight packages and travel guides. Mumbai is well connected to Tirupati by air and there are around 40 flights from flying from Mumbai to tirupati each day.",
+        "itinerary": [
+          { "day": "Day 1-N Days", "description": "Visit Tirupati Balaji Temple, Padmavathi Temple, Srinivasa Mangapuram, Tiruchanur, Golden Temple Vellore (if package includes) based on package duration." }
+        ],
+        "priceCost": "Varies",
+        "tourDetails": [
+          { "label": "Tour Type", "value": "Domestic Tour" },
+          { "label": "Days", "value": "Flexible" },
+          { "label": "Packages", "value": "Tirupati Balaji (4N/5D), Tirupati Package (1N/2D), Tirupati Balaji With Vellore Golden Temple Tour" },
+          { "label": "Categories", "value": "Tirupati Balaji Darshan" },
+          { "label": "Tours Includes", "value": "Accommodation, Darshan Pass, Transport (Optional)" },
+          { "label": "Payment Module", "value": "Online Payment, Bank Transfer" }
+        ],
+        "inclusions": [
+          "Accommodation (Optional)",
+          "Darshan Pass for Tirupati Balaji"
+        ],
+        "exclusions": [
+          "Transport (Optional)",
+          "Meals",
+          "Entrance fees to other temples/attractions",
+          "Personal Expenses"
+        ]
+      },
+      {
+        "name": "mahabaleshwar",
+        "pageTitle": "Mahabaleshwar Tour Package",
+        "tourName": "Mahabaleshwar Tour Packages",
+        "briefDescription": "Mahabaleshwar Tour Packages from Mumbai. Mahabaleshwar which is one of the most popular tourist destinations in Maharashtra is a serene hill station nestled in the Western Ghats.",
+        "duration": "2-3 Nights / 3-4 Days",
+        "packagePrice": "Varies",
+        "minAge": "All Ages",
+        "pickup": "Car / Bus / Train",
+        "aboutTourDescription": "Boasting of the picturesque valley and mesmerizing views of the elevated peaks, dense lush green forests, and clean sparkling rivers, Mahabaleshwar is the perfect destination to relax and rejuvenate your mind and soul. This fabulous hill station is a perfect weekend getaway for tourists seeking a relaxed and tranquil vacation amidst of abundant natural beauty.",
+        "tourPackagesSectionTitle": "Mahabaleshwar Tour Packages",
+        "tourPackagesSectionDescription": "Explore our Mahabaleshwar Tour from Mumbai. For the best exploration of Western India, Mahabaleshwar is absolutely a perfect travel decision. Nestled in the Western Ghats, this charming hill station could prove to be a perfect weekend gateway.",
+        "planVacationSectionTitle": "The best Mahabaleshwar tour package from Mumbai",
+        "planVacationSectionDescription": "Swastik Tours offer a refreshing weekend Mahabaleshwar tour packages from Mumbai that takes you around popular tourists spots like the Panchganga Temple, Monkey point, kate point, echo point, strawberry garden, Pratapgad Fort, parsi point, table point, Bhilar waterfalls, mals”s Jam factory and various other famous tourist attractions in Mahabaleshwar.",
+        "itinerary": [
+          { "day": "Day 1-N Days", "description": "Explore viewpoints, temples, lakes, gardens, and Pratapgarh Fort in Mahabaleshwar based on package duration." }
+        ],
+        "priceCost": "Varies",
+        "tourDetails": [
+          { "label": "Tour Type", "value": "Domestic Tour" },
+          { "label": "Days", "value": "2-3 Nights / 3-4 Days" },
+          { "label": "Packages", "value": "Mahabaleshwar 2N - 3D, Mahabaleshwar 3N - 4D" },
+          { "label": "Categories", "value": "Mahabaleshwar" },
+          { "label": "Tours Includes", "value": "Accommodation, Sightseeing, Transport (Optional)" },
+          { "label": "Payment Module", "value": "Online Payment, Bank Transfer" }
+        ],
+        "inclusions": [
+          "Accommodation (Optional)",
+          "Sightseeing as per itinerary"
+        ],
+        "exclusions": [
+          "Transport (Optional)",
+          "Meals",
+          "Entrance fees to attractions",
+          "Personal Expenses"
+        ]
+      },
+      {
+        "name": "vaishno-devi",
+        "pageTitle": "Vaishno Devi Tour Packages",
+        "tourName": "Vaishno Devi Tour Packages",
+        "briefDescription": "Vaishno Devi Tour Packages from Mumbai. Mata Vaishno Devi is one of the most popular and the holiest shrines of Hindus.",
+        "duration": "Flexible",
+        "packagePrice": "Varies",
+        "minAge": "All Ages",
+        "pickup": "Car / Bus / Train / Air",
+        "aboutTourDescription": "The sacred shrine is visited by lakhs of pilgrims every year from all over the world to seek blessings of Mata Vaishno Devi. Mata Vaishno Devi who is said to be the incarnation of Goddess Saraswati, Goddess Lakshmi and Goddess Kali is the most important religious place for Hindu devotees.",
+        "tourPackagesSectionTitle": "Vaishno Devi Tour Packages",
+        "tourPackagesSectionDescription": "Explore our Bali Tour from Mumbai",
+        "planVacationSectionTitle": "Mata Vaishno Devi’s religious pilgrim is a beacon of hope and faith, holding great significance for many devotees from around the world.",
+        "planVacationSectionDescription": "Join with Swastik tours on this religious Mata Vaishno Devi darshan from Mumbai pacakge tour available at an affordable price. The cheapest Mata Vaishno Devi tour package from Mumbai that we offer can be personalized as per your requirements to suit your needs.",
+        "itinerary": [
+          { "day": "Day 1-N Days", "description": "Visit Vaishno Devi Shrine, Ardh Kuwari, Bhairavnath Temple, and explore Katra based on package duration." }
+        ],
+        "priceCost": "Varies",
+        "tourDetails": [
+          { "label": "Tour Type", "value": "Domestic Pilgrimage Tour" },
+          { "label": "Days", "value": "Flexible" },
+          { "label": "Packages", "value": "Mata Vaishno Devi, Mata Vaishno Devi with Amritsar, Mata Vaishno Devi with Amritsar Special Package" },
+          { "label": "Categories", "value": "Vaishno Devi" },
+          { "label": "Tours Includes", "value": "Accommodation, Yatra Parchi, Transport (Optional)" },
+          { "label": "Payment Module", "value": "Online Payment, Bank Transfer" }
+        ],
+        "inclusions": [
+          "Accommodation (Optional)",
+          "Yatra Parchi for Vaishno Devi"
+        ],
+        "exclusions": [
+          "Transport (Optional)",
+          "Meals",
+          "Pony/Palki charges",
+          "Personal Expenses"
+        ]
+      },
+      {
+        "name": "sikkim-darjeeling",
+        "pageTitle": "Sikkim Darjeeling Tour Package",
+        "tourName": "Sikkim Darjeeling Tour Packages",
+        "briefDescription": "Visit the most charming hill station of the country in Sikkim-Darjeeling Tour package. Explore the Beauty of Sikkim Darjeeling which is a fabulous retreat of scenic and natural beauty.",
+        "duration": "Flexible",
+        "packagePrice": "Varies",
+        "minAge": "All Ages",
+        "pickup": "Car / Bus",
+        "aboutTourDescription": "Boasting of magnificent snow capped mountains, lush green dense forest s, blue lakes these marvelous destinations are worth visiting once. Witness the beauty of northern-east of India with Swastik tours Sikkim-Darjeeling tour package from Mumbai.",
+        "tourPackagesSectionTitle": "Sikkim Darjeeling Tour Packages",
+        "tourPackagesSectionDescription": "Explore our Sikkim Darjeeling Tour from Mumbai. Witness the unexplored beauty of India that waits for you in our Sikkim- Darjeeling tour from Mumbai and enjoy unfolding the unexplored North-Eastern corners!",
+        "planVacationSectionTitle": "Swastik tours Sikkim- Darjeeling tour package from Mumbai",
+        "planVacationSectionDescription": "Our tour deigns and plans your itinerary ensuring you have the best of time visiting all the beautiful places of the Sikkim and Darjeeling. We make sure you get the best of Darjeeling-Sikkim tour package from Mumbai that suites your requirement and budget.",
+        "itinerary": [
+          { "day": "Day 1-N Days", "description": "Explore Darjeeling and Sikkim attractions like Tiger Hill, monasteries, tea gardens, lakes, and enjoy scenic beauty based on package duration." }
+        ],
+        "priceCost": "Varies",
+        "tourDetails": [
+          { "label": "Tour Type", "value": "Domestic Tour" },
+          { "label": "Days", "value": "Flexible" },
+          { "label": "Packages", "value": "SIMPLY-NORTH-EAST-WITH-Pelling, FANTASCING-NORTH-EAST-INDIA" },
+          { "label": "Categories", "value": "Sikkim Darjeeling" },
+          { "label": "Tours Includes", "value": "Accommodation, Sightseeing, Transport (Optional)" },
+          { "label": "Payment Module", "value": "Online Payment, Bank Transfer" }
+        ],
+        "inclusions": [
+          "Accommodation (Optional)",
+          "Sightseeing as per itinerary"
+        ],
+        "exclusions": [
+          "Transport (Optional)",
+          "Meals",
+          "Entrance fees to attractions",
+          "Personal Expenses"
+        ]
+      },
+      {
+        "name": "varanasi",
+        "pageTitle": "Varanasi Tour",
+        "tourName": "Varansai Tour (7N/8D)",
+        "briefDescription": "Come join with us on a tour for Varanasi tour from Mumbai with Swastik tours.",
+        "duration": "7 Night - 8 Days",
+        "packagePrice": "Starting 17,500/-",
+        "minAge": "3+ years",
+        "pickup": "Car",
+        "aboutTourDescription": "Varanasi, Kashi or Banaras a city with numerous names derived through its millennial history is one of the oldest Hindu cities located by the sacred river Ganges in Uttar Pradesh. The city has a remarkable history of which most of India’s ethos stems from. The essence of Varanasi is the true essence of Indian culture that touches the core of Indian spirituality.",
+        "tourPackagesSectionTitle": "Varansai Tour Packages",
+        "tourPackagesSectionDescription": "Varanasi Tour Packages from Mumbai",
+        "planVacationSectionTitle": "Swatik tour offers you Varanasi tour package from Mumbai which is designed to suite your tour requirements and budget.",
+        "planVacationSectionDescription": "We offer an incredible tour itinerary of Varanasi that not only showcases the sacred Hindu city but also takes you on a shopping Speer to its colorful markets that are renowned for its silk sarees and brassware all over the world.",
+        "itinerary": [
+          { "day": "Day 1-8", "description": "Explore Varanasi Ghats, temples, Sarnath, attend Ganga Aarti, and experience the spiritual and cultural essence of Varanasi over 7-8 days." }
+        ],
+        "priceCost": "Rs. 17,500/- Per Person",
+        "tourDetails": [
+          { "label": "Tour Type", "value": "Domestic Tour" },
+          { "label": "Days", "value": "7 Nights – 8 Days" },
+          { "label": "Packages", "value": "Varansai Tour" },
+          { "label": "Categories", "value": "Varanasi" },
+          { "label": "Tours Includes", "value": "Hotels, Meals, Transport, Sightseeing" },
+          { "label": "Payment Module", "value": "Online Payment, Bank Transfer" }
+        ],
+        "inclusions": [
+          "Pick up & Drop Service",
+          "Transfer by Non-A/c Coach",
+          "AP Plan (Breakfast + Lunch + Dinner)",
+          "Lucknow – Agra Train Ticket 2nd Sleeper Class"
+        ],
+        "exclusions": [
+          "Anything not mentioned in Inclusions",
+          "Personal Expenses"
+        ]
+      },
+      {
+        "name": "nepal-tour",
+        "pageTitle": "Nepal Tour Packages",
+        "tourName": "Nepal Tour (9N/10D)",
+        "briefDescription": "Come join with us on a tour for Nepal tour from Mumbai with Swastik tours.",
+        "duration": "9 Night - 10 Days",
+        "packagePrice": "Starting 23,000/-",
+        "minAge": "3+ years",
+        "pickup": "Car",
+        "aboutTourDescription": "Swastik tours Nepal tour package from Mumbai takes you around the most enchanting cities of Nepal to witness some of the breathtaking beauties and sceneries of the country. With number of temples, monasteries and enthralling wildlife, Nepal has a lot to offer and promises of a wonderful time that covers vivid attractions of the country.",
+        "tourPackagesSectionTitle": "Nepal Tour Packages",
+        "tourPackagesSectionDescription": "Nepal Tour Packages from Mumbai",
+        "planVacationSectionTitle": "Our cheap Nepal tour package from Mumbai also includes exciting wildlife safari at Chitwan, with its thrilling range of wild royal Bengal tigers, rhinoceros and a spectacular jungle tour with elephant rides!",
+        "planVacationSectionDescription": "Indulge in the local lifestyle and enjoy living in the middle of traditional villages and brick houses, witness the snow-covered Himalayan mountain range, the Kathmandu Valley, agricultural hills and ancient holy Hindu temples and shrines that are visited by millions of devotees every year.",
+        "itinerary": [
+          { "day": "Day 1", "description": "Allahabad Arrival." },
+          { "day": "Day 2", "description": "Allahabad – Sonauli" },
+          { "day": "Day 3", "description": "Sonauli – Pokhara" },
+          { "day": "Day 4", "description": "Pokhara Local" },
+          { "day": "Day 5", "description": "Pokhara – Kathmandu" },
+          { "day": "Day 6", "description": "Kathmandu Local" },
+          { "day": "Day 7", "description": "Kathmandu – Sonauli" },
+          { "day": "Day 8", "description": "Sonauli – Varanasi" },
+          { "day": "Day 9", "description": "Varanasi Local" },
+          { "day": "Day 10", "description": "Drop." }
+        ],
+        "priceCost": "Rs. 23,000/- Per Person",
+        "tourDetails": [
+          { "label": "Tour Type", "value": "Domestic Tour" },
+          { "label": "Days", "value": "9 Nights – 10 Days" },
+          { "label": "Packages", "value": "Nepal Tour" },
+          { "label": "Categories", "value": "Nepal" },
+          { "label": "Tours Includes", "value": "Hotels, Meals, Transport, Sightseeing" },
+          { "label": "Payment Module", "value": "Online Payment, Bank Transfer" }
+        ],
+        "inclusions": [
+          "Transfers & Sightseeing by Pushback A/C Bus",
+          "Accommodation in comfortable & convenient hotel",
+          "All Meals (Breakfast, Lunch, Dinner)",
+          "All Tips – Guide, Driver, Restaurant",
+          "Entry Fees of all sightseeing places to be visited"
+        ],
+        "exclusions": [
+          "Anything not mentioned in Inclusions",
+          "Personal Expenses"
+        ]
+      },
+      {
+        "name": "shree-datta-dham-yatra",
+        "pageTitle": "Shree Dattadham Yatra",
+        "tourName": "Shree Dattadham Yatra (4N/5D)",
+        "briefDescription": "Come join with us on a tour for Shree Dattadham  Yatra from Mumbai with Swastik tours.",
+        "duration": "4 Night - 5 Days",
+        "packagePrice": "Starting 7000/-",
+        "minAge": "3+ years",
+        "pickup": "Bus",
+        "aboutTourDescription": "Shree Dattadham Yatra is a pilgrimage tour to visit sacred places related to Lord Dattatreya.",
+        "tourPackagesSectionTitle": "Shree Dattadham Yatra Packages",
+        "tourPackagesSectionDescription": "shri-datta-dham yatra",
+        "planVacationSectionTitle": "Book your Shree Dattadham Yatra Package",
+        "planVacationSectionDescription": "Join Swastik tours for a divine Shree Dattadham Yatra.",
+        "itinerary": [
+          { "day": "Day 1-5", "description": "Visit sacred places in Shree Dattadham Yatra circuit over 4-5 days as per itinerary." }
+        ],
+        "priceCost": "Starting 7000/-",
+        "tourDetails": [
+          { "label": "Tour Type", "value": "Domestic Pilgrimage Tour" },
+          { "label": "Days", "value": "4 Nights – 5 Days" },
+          { "label": "Packages", "value": "shri-datta-dham yatra" },
+          { "label": "Categories", "value": "Shree Dattadham Yatra" },
+          { "label": "Tours Includes", "value": "Hotels, Meals, Transport, Sightseeing" },
+          { "label": "Payment Module", "value": "Online Payment, Bank Transfer" }
+        ],
+        "inclusions": [
+          "2×2 A/c  Seater Bus (Pushback)",
+          "Accommodation in Non Ac Deluxe Hotel",
+          "Food (Breakfast, Lunch, & Dinner)"
+        ],
+        "exclusions": [
+          "Anything not mentioned in Inclusions",
+          "Personal Expenses"
+        ]
+      }
+    ]
+  }

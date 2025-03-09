@@ -1,0 +1,352 @@
+/* ContactUsPage.css - Themed to HomePage.css */
+
+.contact-us-page {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #4a4a4a; /* Updated to #4a4a4a to match HomePage general text color */
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Section with Video Background */
+/* ContactUsPage.css - Updated with Video Background */
+
+/* ... (rest of your existing CSS remains the same) ... */
+
+/* Header Section with Video Background - Replaced Image with Video */
+.contact-header-section {
+    height: 400px; /* Adjust as needed */
+    width: 100%;
+    /* background-image: url('https://media.istockphoto.com/id/1135177354/photo/contact-us-blue-keys-buttons-with-mail-and-phone-signs-on-a-computer-keyboard-banner-3d.jpg?s=612x612&w=0&k=20&c=eJAAopG3O2C4FL-_8j-k-iNxL1jNjYfcshEqa1Baxas=');  REMOVED background image */
+    background-position: center;
+    background-size: cover; /* Or contain, depending on desired effect */
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    overflow: hidden; /* Ensure animation stays within header bounds */
+    animation: zoomInOutContactHeader 8s infinite alternate; /* Updated animation duration to 8s to match HomePage carousel */
+}
+
+.contact-header-section .hero-video { /* Added hero-video styles for video background */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Place video behind content */
+}
+
+
+.contact-header-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Updated overlay color to rgba(0, 0, 0, 0.5) to match HomePage carousel overlay */
+    z-index: -1; /* Place overlay behind content, above video */
+}
+
+.header-overlay {
+    position: relative;
+    z-index: 1;
+}
+
+.contact-header-section h1 {
+    font-size: 4em; /* Updated font-size to 4em to match HomePage carousel h1 */
+    font-weight: 900; /* Updated font-weight to 900 to match HomePage carousel h1 */
+    margin-bottom: 0; /* Updated margin-bottom to 0 to match HomePage carousel h1 */
+    color: #c4baba; /* Updated color to #c4baba to match HomePage carousel h1 color */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.7); /* Text shadow consistent with HomePage carousel */
+}
+
+.contact-header-section .sub-heading {
+    font-size: 1.2em; /*  Adjusted to be closer to HomePage paragraph text sizes */
+    margin-bottom: 5px;
+    font-weight: 400; /* Adjusted font weight to be consistent */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.7); /* Text shadow consistent with HomePage carousel */
+    color: #ffffff; /* Updated color to white for better visibility on overlay */
+    max-width: 700px; /* Added max-width for better readability */
+    margin: 0 auto; /* Center the subheading */
+}
+
+.contact-header-section .availability-text {
+    font-size: 1.1em;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+    color: #ffffff; /* Updated color to white for better visibility on overlay */
+}
+
+/* Keyframes for Zoom In/Out Animation - ADDED */
+@keyframes zoomInOutContactHeader {
+    0% {
+        background-size: 100%; /* Start at normal size */
+    }
+    100% {
+        background-size: 110%; /* Updated zoom to 110% to match HomePage carousel zoom */
+    }
+}
+
+/* ... (rest of your CSS below remains the same) ... */
+
+.header-overlay {
+    position: relative;
+    z-index: 1;
+}
+
+.contact-header-section h1 {
+    font-size: 4em; /* Updated font-size to 4em to match HomePage carousel h1 */
+    font-weight: 900; /* Updated font-weight to 900 to match HomePage carousel h1 */
+    margin-bottom: 0; /* Updated margin-bottom to 0 to match HomePage carousel h1 */
+    color: #c4baba; /* Updated color to #c4baba to match HomePage carousel h1 color */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+}
+
+.contact-header-section .sub-heading {
+    font-size: 1.2em;  /*  Adjusted to be closer to HomePage paragraph text sizes */
+    margin-bottom: 5px;
+    font-weight: 400; /* Adjusted font weight to be consistent */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+    color: #ffffff; /* Updated color to white for better visibility on overlay */
+    max-width: 700px; /* Added max-width for better readability */
+    margin: 0 auto; /* Center the subheading */
+}
+
+.contact-header-section .availability-text {
+    font-size: 1.1em;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+    color: #ffffff; /* Updated color to white for better visibility on overlay */
+}
+
+
+/* Contact Details Section as Cards */
+.contact-details-section {
+    padding: 70px 0; /* Updated padding to 70px 0 to match HomePage quick-actions-section */
+}
+
+.contact-details-section .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); /* Updated minmax to 340px to match HomePage quick-actions-section card width */
+    gap: 30px;
+}
+
+.contact-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08); /* Shadow to match HomePage cards */
+    padding: 40px 30px; /* Updated padding to 40px 30px to match HomePage quick-actions-section .card */
+    text-align: left;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Updated transition duration to 0.2s to match HomePage cards */
+    border: 1px solid #eee; /* Added border like HomePage cards */
+}
+
+.contact-card:hover {
+    transform: translateY(-8px); /* Pop-up effect on hover - updated to -8px to match HomePage quick-actions-section .card:hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Increased shadow on hover - updated to match HomePage quick-actions-section .card:hover */
+}
+
+
+.contact-card h3 {
+    font-size: 1.4em; /* Updated font-size to 1.4em to match HomePage quick-actions-section h3 */
+    font-weight: 700; /* Updated font-weight to 700 to match HomePage quick-actions-section h3 */
+    margin-bottom: 10px; /* Updated margin-bottom to 10px to match HomePage quick-actions-section h3 */
+    color: #3a3a3a;
+    margin-top: 0; /* Added margin-top to 0 to match HomePage quick-actions-section h3 */
+}
+
+.contact-card p,
+.contact-card ul,
+.contact-card a {
+    color: #666;
+    font-size: 1em; /* Updated font-size to 1em to match HomePage quick-actions-section p */
+    line-height: 1.6;
+    text-decoration: none;
+    font-weight: 400; /* Added font-weight to match HomePage quick-actions-section p */
+}
+
+.contact-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-card li {
+    margin-bottom: 8px;
+}
+
+.contact-card a:hover {
+    color: #151748; /* Updated to #151748 to match HomePage primary accent color on hover */
+}
+
+
+/* Contact Form Section (No changes needed here from previous version if you are happy with it) */
+.contact-form-section {
+    padding: 70px 0; /* Updated padding to 70px 0 to match HomePage quick-actions-section */
+    background-color: #f9f9f9; /* Light gray background - consistent with HomePage sections */
+    text-align: left; /* Align form text to left */
+}
+
+.contact-form-section h3 {
+    font-size: 2.4em; /* Updated font-size to 2.4em to match HomePage summer-tours-section h2 */
+    font-weight: 700; /* Updated font-weight to 700 to match HomePage summer-tours-section h2 */
+    margin-bottom: 35px; /* Updated margin-bottom to 35px to match HomePage summer-tours-section h2 */
+    color: #3a3a3a;
+    text-align: center; /* Center form heading */
+    letter-spacing: -0.8px; /* Added letter-spacing to match HomePage summer-tours-section h2 */
+}
+
+.contact-form {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px; /* Updated border-radius to 12px to match HomePage cards */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08); /* Updated box-shadow to match HomePage cards */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+
+.half-width {
+    width: 50%; /* For side-by-side fields */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #555;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Updated border-radius to 8px to match HomePage buttons and input fields */
+    font-size: 1em;
+    box-sizing: border-box; /* To include padding in width */
+    font-family: inherit; /* Inherit font from body */
+    color: #666; /* Added color to match HomePage input color */
+}
+
+.form-group textarea {
+    resize: vertical; /* Allow vertical resizing of textarea */
+}
+
+.submit-button {
+    background-color: #151748; /* Updated to #151748 to match HomePage primary button color */
+    color: white;
+    border: none;
+    padding: 12px 252px; /* Updated padding to 12px 22px to match HomePage view-tour-button */
+    border-radius: 28px; /* Updated border-radius to 8px to match HomePage buttons */
+    cursor: pointer;
+    font-size: 1em; /* Updated font-size to 1em to match HomePage view-tour-button */
+    font-weight: 600; /* Updated font-weight to 600 to match HomePage buttons */
+    transition: background-color 0.2s ease-in-out, transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out; /* Added transition for transform and box-shadow */
+    display: block; /* or display: inline-block; if you prefer */
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added box-shadow to match HomePage buttons */
+}
+
+.submit-button:hover {
+    background-color: #006666; /* Darker teal on hover - consistent with HomePage button hover */
+    transform: scale(1.02); /* Added scale on hover to match HomePage buttons hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Added box-shadow on hover to match HomePage buttons hover */
+}
+
+
+/* Responsive adjustments for smaller screens (No changes needed here from previous version if you are happy with it) */
+@media (max-width: 768px) {
+    .contact-header-section {
+        height: 300px; /* Adjust header height on smaller screens */
+    }
+
+    .contact-header-section h1 {
+        font-size: 2.5em; /* Smaller heading on smaller screens */
+    }
+
+    .contact-form {
+        padding: 20px; /* Less padding on smaller screens */
+    }
+
+    .form-row {
+        flex-direction: column; /* Stack form fields in single column */
+        gap: 0;
+    }
+
+    .half-width {
+        width: 100%; /* Full width for stacked fields */
+    }
+}
+
+/* Fade-in animation for sections - ADDED to ContactUsPage.css */
+
+/* Base state for sections before they fade in */
+.contact-header-section,
+.contact-details-section,
+.contact-form-section {
+    opacity: 0;
+    transform: translateY(20px); /* Updated translateY to 20px to match HomePage fade-in */
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out; /* Updated transition duration to 0.6s to match HomePage fade-in */
+}
+
+/* Active state when section is in view */
+.fade-in-section {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Optional: Staggered animation for elements within sections - Consistent with HomePage timing */
+.contact-details-section .container > *,
+.contact-form .form-group{
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out; /* Transition duration to match HomePage staggered elements */
+}
+
+.contact-details-section .container .contact-card:nth-child(1) { transition-delay: 0.05s; } /* Delay values adjusted to be closer to HomePage */
+.contact-details-section .container .contact-card:nth-child(2) { transition-delay: 0.1s; }
+.contact-details-section .container .contact-card:nth-child(3) { transition-delay: 0.15s; }
+
+.contact-form .form-group:nth-child(1) { transition-delay: 0.05s; }
+.contact-form .form-group:nth-child(2) { transition-delay: 0.1s; }
+.contact-form .form-group:nth-child(3) { transition-delay: 0.15s; }
+.contact-form .form-group:nth-child(4) { transition-delay: 0.2s; }
+.contact-form .form-group:nth-child(5) { transition-delay: 0.25s; }
+
+
+.success-message {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.error-message {
+    background-color: #f44336; /* Red background */
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+}

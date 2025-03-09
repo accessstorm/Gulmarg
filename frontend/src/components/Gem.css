@@ -1,0 +1,203 @@
+
+.home-page-content { /* Re-using home-page-content for base font and colors */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #4a4a4a;
+    line-height: 1.6;
+}
+
+.gem-chat-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.gem-chat-button {
+    width: 70px; /* Increased button size */
+    height: 70px; /* Increased button size */
+    border-radius: 50%;
+    background-color: #1a2473; /* **Darker Primary Color - More Color!** */
+    color: white;
+    border: 3px solid #151748; /* **Added Border - More Color!** */
+    font-size: 28px; /* Slightly larger icon */
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Slightly stronger shadow */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.gem-chat-button:hover {
+    transform: translateY(-5px) scale(1.08); /* More pronounced hover */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); /* Stronger hover shadow */
+    background-color: #008080; /* **Brighter Hover Color - More Color!** */
+    border-color: #006666; /* Hover border color */
+}
+
+.gem-chat-button.open {
+    background-color: #EA4335; /* Keep close button color */
+    border-color: #EA4335; /* Match border to close button color */
+}
+
+.gem-chat-window {
+    position: absolute;
+    bottom: 90px; /* Adjusted bottom position for larger window */
+    right: 0;
+    width: 540px; /* **Doubled Width - Twice as Big!** */
+    max-height: 500px; /* **Doubled Max Height - Twice as Big!** */
+    background-color: #fff;
+    color: #4a4a4a;
+    border-radius: 15px; /* Slightly larger rounded corners */
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15); /* Stronger shadow for larger window */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 2px solid #ddd; /* Slightly thicker border */
+}
+
+.gem-chat-header {
+    padding: 20px; /* Increased header padding */
+    background-color: #151748; /* **Dark Primary Header - More Color!** */
+    color: white; /* **White Header Text - More Color Contrast!** */
+    font-weight: 800; /* Bolder header text */
+    border-bottom: 2px solid #ddd; /* Thicker border */
+    text-align: center;
+}
+
+.gem-chat-header h3 {
+    margin: 0;
+    font-size: 2em; /* Larger header font */
+    letter-spacing: 0.5px; /* Slight letter spacing for boldness */
+}
+
+.gem-chat-messages {
+    flex-grow: 1;
+    padding: 25px; /* Increased message padding */
+    overflow-y: auto;
+    background-color: #f0f2f5; /* Slightly darker message area background */
+    display: flex;
+    flex-direction: column;
+}
+
+.gem-welcome-message {
+    text-align: center;
+    color: #888; /* Slightly darker welcome message color */
+    margin: auto;
+}
+
+.gem-welcome-message p {
+    font-size: 1.2em; /* Slightly larger welcome message font */
+}
+
+.gem-message {
+    margin-bottom: 20px; /* Increased message spacing */
+    display: flex;
+    flex-direction: column;
+}
+
+.gem-message.user {
+    align-items: flex-end;
+}
+
+.gem-message.bot {
+    align-items: flex-start;
+}
+
+.gem-message-content {
+    padding: 15px 20px; /* Increased message content padding */
+    border-radius: 25px; /* More rounded message bubbles */
+    max-width: 85%; /* Slightly wider message bubbles */
+    word-break: break-word;
+    font-size: 1.2em; /* Larger message font */
+    line-height: 1.5; /* Increased line height for readability */
+}
+
+.gem-message.user .gem-message-content {
+    background-color: #b2ebf2; /* **More Saturated User Bubble Color - More Color!** */
+    color: #222; /* Darker text for user messages */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Slightly stronger shadow */
+}
+
+.gem-message.bot .gem-message-content {
+    background-color: #fff;
+    color: #555; /* Slightly darker bot message text */
+    border: 2px solid #eee; /* Thicker border for bot messages */
+}
+
+.gem-loading span {
+    display: inline-block;
+    animation: gemDotAnimation 1.4s infinite ease-in-out both;
+    color: #1a2473; /* **Dark Primary Loading Dots - More Color!** */
+    font-size: 1.4em; /* Larger loading dots */
+}
+
+.gem-loading span:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.gem-loading span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.gem-loading span:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+@keyframes gemDotAnimation {
+    0%, 80%, 100% {
+        transform: scale(0);
+        opacity: 0.7; /* Slightly increased opacity for loading dots */
+    }
+    40% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.gem-chat-input {
+    display: flex;
+    padding: 15px; /* Increased input padding */
+    border-top: 2px solid #ddd; /* Thicker input border */
+    background-color: #fff;
+    border-bottom-left-radius: 15px; /* Match window radius */
+    border-bottom-right-radius: 15px; /* Match window radius */
+}
+
+.gem-chat-input input {
+    flex-grow: 1;
+    padding: 15px; /* Increased input field padding */
+    border: 2px solid #eee; /* Thicker input border */
+    border-radius: 10px; /* More rounded input corners */
+    margin-right: 15px; /* Increased input margin */
+    outline: none;
+    font-size: 1.2em; /* Larger input font */
+    color: #555; /* Darker input text color */
+}
+
+.gem-chat-input button {
+    background-color: #1a2473; /* **Darker Primary Button Color - More Color!** */
+    color: white;
+    border: none;
+    border-radius: 10px; /* More rounded button corners */
+    padding: 15px 25px; /* Increased button padding */
+    cursor: pointer;
+    font-size: 1.2em; /* Larger button font */
+    font-weight: 700; /* Bolder button text */
+    transition: background-color 0.2s ease-in-out, transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15); /* Slightly stronger button shadow */
+}
+
+.gem-chat-input button:hover {
+    background-color: #008080; /* **Brighter Button Hover Color - More Color!** */
+    transform: scale(1.05); /* Button hover scale */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Stronger button hover shadow */
+}
+
+.gem-chat-input button:disabled {
+    background-color: #cccccc;
+    color: #999;
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
